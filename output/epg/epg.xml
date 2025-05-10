@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<tv date="20250510131739 +0800">
+<tv date="20250510133426 +0800">
 	<channel id="CCTV-1">
 		<display-name lang="zh">CCTV-1</display-name>
 	</channel>
@@ -1932,6 +1932,69 @@
 	<programme channel="CETV4" start="20250510234000 +0800" stop="20250510235900 +0800">
 		<title lang="zh">蹦蹦跳跳爱健康</title>
 	</programme>
+	<channel id="TVBS新闻">
+		<display-name lang="zh">TVBS新闻</display-name>
+	</channel>
+	<programme channel="TVBS新闻" start="20250510000000 +0800" stop="20250510010000 +0800">
+		<title lang="zh">新闻夜视界</title>
+	</programme>
+	<programme channel="TVBS新闻" start="20250510010000 +0800" stop="20250510020000 +0800">
+		<title lang="zh">十点不一样</title>
+	</programme>
+	<programme channel="TVBS新闻" start="20250510020000 +0800" stop="20250510040000 +0800">
+		<title lang="zh">新闻夜视界</title>
+	</programme>
+	<programme channel="TVBS新闻" start="20250510040000 +0800" stop="20250510050000 +0800">
+		<title lang="zh">九点热话题</title>
+	</programme>
+	<programme channel="TVBS新闻" start="20250510050000 +0800" stop="20250510060000 +0800">
+		<title lang="zh">十点不一样</title>
+	</programme>
+	<programme channel="TVBS新闻" start="20250510060000 +0800" stop="20250510070000 +0800">
+		<title lang="zh">晨间6点新闻</title>
+	</programme>
+	<programme channel="TVBS新闻" start="20250510070000 +0800" stop="20250510090000 +0800">
+		<title lang="zh">早安台湾</title>
+	</programme>
+	<programme channel="TVBS新闻" start="20250510090000 +0800" stop="20250510100000 +0800">
+		<title lang="zh">上午9点新闻</title>
+	</programme>
+	<programme channel="TVBS新闻" start="20250510100000 +0800" stop="20250510110000 +0800">
+		<title lang="zh">上午10点新闻</title>
+	</programme>
+	<programme channel="TVBS新闻" start="20250510110000 +0800" stop="20250510120000 +0800">
+		<title lang="zh">上午11点新闻</title>
+	</programme>
+	<programme channel="TVBS新闻" start="20250510120000 +0800" stop="20250510140000 +0800">
+		<title lang="zh">午间1213新闻</title>
+	</programme>
+	<programme channel="TVBS新闻" start="20250510140000 +0800" stop="20250510150000 +0800">
+		<title lang="zh">说新闻</title>
+	</programme>
+	<programme channel="TVBS新闻" start="20250510150000 +0800" stop="20250510160000 +0800">
+		<title lang="zh">1500整点新闻</title>
+	</programme>
+	<programme channel="TVBS新闻" start="20250510160000 +0800" stop="20250510170000 +0800">
+		<title lang="zh">16整点新闻</title>
+	</programme>
+	<programme channel="TVBS新闻" start="20250510170000 +0800" stop="20250510180000 +0800">
+		<title lang="zh">17整点新闻</title>
+	</programme>
+	<programme channel="TVBS新闻" start="20250510180000 +0800" stop="20250510200000 +0800">
+		<title lang="zh">晚间67点新闻</title>
+	</programme>
+	<programme channel="TVBS新闻" start="20250510200000 +0800" stop="20250510210000 +0800">
+		<title lang="zh">晚间8点新闻</title>
+	</programme>
+	<programme channel="TVBS新闻" start="20250510210000 +0800" stop="20250510220000 +0800">
+		<title lang="zh">TVBS娱乐头条</title>
+	</programme>
+	<programme channel="TVBS新闻" start="20250510220000 +0800" stop="20250510230000 +0800">
+		<title lang="zh">十点不一样</title>
+	</programme>
+	<programme channel="TVBS新闻" start="20250510230000 +0800" stop="20250510235900 +0800">
+		<title lang="zh">新闻夜视界</title>
+	</programme>
 	<channel id="三沙卫视">
 		<display-name lang="zh">三沙卫视</display-name>
 	</channel>
@@ -2295,80 +2358,74 @@
 	<programme channel="东方卫视" start="20250510232500 +0800" stop="20250510235900 +0800">
 		<title lang="zh">＜蛮好的人生＞特辑</title>
 	</programme>
-	<channel id="中视新闻台">
-		<display-name lang="zh">中视新闻台</display-name>
+	<channel id="东森新闻">
+		<display-name lang="zh">东森新闻</display-name>
 	</channel>
-	<programme channel="中视新闻台" start="20250510000000 +0800" stop="20250510010000 +0800">
-		<title lang="zh">即时新闻现场第9集</title>
+	<programme channel="东森新闻" start="20250510000000 +0800" stop="20250510010000 +0800">
+		<title lang="zh">东森夜线新闻</title>
 	</programme>
-	<programme channel="中视新闻台" start="20250510010000 +0800" stop="20250510020000 +0800">
-		<title lang="zh">庶民大头家第1428集</title>
+	<programme channel="东森新闻" start="20250510010000 +0800" stop="20250510020000 +0800">
+		<title lang="zh">关键时刻</title>
 	</programme>
-	<programme channel="中视新闻台" start="20250510020000 +0800" stop="20250510030000 +0800">
-		<title lang="zh">庶民大头家第1428集</title>
+	<programme channel="东森新闻" start="20250510020000 +0800" stop="20250510030000 +0800">
+		<title lang="zh">关键时刻</title>
 	</programme>
-	<programme channel="中视新闻台" start="20250510030000 +0800" stop="20250510040000 +0800">
-		<title lang="zh">中视新闻全球报导第9集</title>
+	<programme channel="东森新闻" start="20250510030000 +0800" stop="20250510040000 +0800">
+		<title lang="zh">东森夜线新闻</title>
 	</programme>
-	<programme channel="中视新闻台" start="20250510040000 +0800" stop="20250510050000 +0800">
-		<title lang="zh">即时新闻现场第9集</title>
+	<programme channel="东森新闻" start="20250510040000 +0800" stop="20250510050000 +0800">
+		<title lang="zh">东森世界日报</title>
 	</programme>
-	<programme channel="中视新闻台" start="20250510050000 +0800" stop="20250510060000 +0800">
-		<title lang="zh">中视新闻全球报导6点抢先报第9集</title>
+	<programme channel="东森新闻" start="20250510050000 +0800" stop="20250510060000 +0800">
+		<title lang="zh">东森世界日报</title>
 	</programme>
-	<programme channel="中视新闻台" start="20250510060000 +0800" stop="20250510070000 +0800">
-		<title lang="zh">中视新闻全球报导第9集</title>
+	<programme channel="东森新闻" start="20250510060000 +0800" stop="20250510070000 +0800">
+		<title lang="zh">Hello台湾</title>
 	</programme>
-	<programme channel="中视新闻台" start="20250510070000 +0800" stop="20250510080000 +0800">
-		<title lang="zh">中视早安新闻第10集</title>
+	<programme channel="东森新闻" start="20250510070000 +0800" stop="20250510090000 +0800">
+		<title lang="zh">Hello台湾</title>
 	</programme>
-	<programme channel="中视新闻台" start="20250510080000 +0800" stop="20250510090000 +0800">
-		<title lang="zh">整点新闻第10集</title>
+	<programme channel="东森新闻" start="20250510090000 +0800" stop="20250510100000 +0800">
+		<title lang="zh">东森午安新闻</title>
 	</programme>
-	<programme channel="中视新闻台" start="20250510090000 +0800" stop="20250510100000 +0800">
-		<title lang="zh">即时新闻现场第10集</title>
+	<programme channel="东森新闻" start="20250510100000 +0800" stop="20250510110000 +0800">
+		<title lang="zh">东森午安新闻</title>
 	</programme>
-	<programme channel="中视新闻台" start="20250510100000 +0800" stop="20250510110000 +0800">
-		<title lang="zh">60分钟第231集</title>
+	<programme channel="东森新闻" start="20250510110000 +0800" stop="20250510130000 +0800">
+		<title lang="zh">东森午安新闻</title>
 	</programme>
-	<programme channel="中视新闻台" start="20250510110000 +0800" stop="20250510115800 +0800">
-		<title lang="zh">即时新闻现场第10集</title>
+	<programme channel="东森新闻" start="20250510130000 +0800" stop="20250510140000 +0800">
+		<title lang="zh">东森午安新闻</title>
 	</programme>
-	<programme channel="中视新闻台" start="20250510115800 +0800" stop="20250510130000 +0800">
-		<title lang="zh">中视午间新闻第10集</title>
+	<programme channel="东森新闻" start="20250510140000 +0800" stop="20250510150000 +0800">
+		<title lang="zh">东森午安新闻</title>
 	</programme>
-	<programme channel="中视新闻台" start="20250510130000 +0800" stop="20250510140000 +0800">
-		<title lang="zh">即时新闻现场第10集</title>
+	<programme channel="东森新闻" start="20250510150000 +0800" stop="20250510153000 +0800">
+		<title lang="zh">东森新闻趋势新未来</title>
 	</programme>
-	<programme channel="中视新闻台" start="20250510140000 +0800" stop="20250510150000 +0800">
-		<title lang="zh">即时新闻现场第10集</title>
+	<programme channel="东森新闻" start="20250510153000 +0800" stop="20250510160000 +0800">
+		<title lang="zh">东森大社会</title>
 	</programme>
-	<programme channel="中视新闻台" start="20250510150000 +0800" stop="20250510160000 +0800">
-		<title lang="zh">即时新闻现场第10集</title>
+	<programme channel="东森新闻" start="20250510160000 +0800" stop="20250510170000 +0800">
+		<title lang="zh">东森晚间新闻</title>
 	</programme>
-	<programme channel="中视新闻台" start="20250510160000 +0800" stop="20250510170000 +0800">
-		<title lang="zh">即时新闻现场第10集</title>
+	<programme channel="东森新闻" start="20250510170000 +0800" stop="20250510180000 +0800">
+		<title lang="zh">东森晚间新闻</title>
 	</programme>
-	<programme channel="中视新闻台" start="20250510170000 +0800" stop="20250510180000 +0800">
-		<title lang="zh">即时新闻现场第10集</title>
+	<programme channel="东森新闻" start="20250510180000 +0800" stop="20250510200000 +0800">
+		<title lang="zh">东森晚间新闻</title>
 	</programme>
-	<programme channel="中视新闻台" start="20250510180000 +0800" stop="20250510185700 +0800">
-		<title lang="zh">中视新闻全球报导6点抢先报第10集</title>
+	<programme channel="东森新闻" start="20250510200000 +0800" stop="20250510210000 +0800">
+		<title lang="zh">东森世界日报</title>
 	</programme>
-	<programme channel="中视新闻台" start="20250510185700 +0800" stop="20250510200000 +0800">
-		<title lang="zh">中视新闻全球报导第10集</title>
+	<programme channel="东森新闻" start="20250510210000 +0800" stop="20250510220000 +0800">
+		<title lang="zh">东森世界日报</title>
 	</programme>
-	<programme channel="中视新闻台" start="20250510200000 +0800" stop="20250510210000 +0800">
-		<title lang="zh">即时新闻现场第10集</title>
+	<programme channel="东森新闻" start="20250510220000 +0800" stop="20250510230000 +0800">
+		<title lang="zh">东森夜线新闻</title>
 	</programme>
-	<programme channel="中视新闻台" start="20250510210000 +0800" stop="20250510220000 +0800">
-		<title lang="zh">整点新闻第10集</title>
-	</programme>
-	<programme channel="中视新闻台" start="20250510220000 +0800" stop="20250510230000 +0800">
-		<title lang="zh">60分钟第248集</title>
-	</programme>
-	<programme channel="中视新闻台" start="20250510230000 +0800" stop="20250510235900 +0800">
-		<title lang="zh">即时新闻现场第10集</title>
+	<programme channel="东森新闻" start="20250510230000 +0800" stop="20250510235900 +0800">
+		<title lang="zh">台湾1001个故事</title>
 	</programme>
 	<channel id="云南卫视">
 		<display-name lang="zh">云南卫视</display-name>
@@ -4340,84 +4397,6 @@
 	</programme>
 	<programme channel="明珠台" start="20250510234000 +0800" stop="20250510235900 +0800">
 		<title lang="zh">晚间新闻</title>
-	</programme>
-	<channel id="民视新闻台">
-		<display-name lang="zh">民视新闻台</display-name>
-	</channel>
-	<programme channel="民视新闻台" start="20250510000000 +0800" stop="20250510010000 +0800">
-		<title lang="zh">精彩呈现</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510010000 +0800" stop="20250510023000 +0800">
-		<title lang="zh">台湾向前行第1761集</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510023000 +0800" stop="20250510033000 +0800">
-		<title lang="zh">民视晚间新闻</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510033000 +0800" stop="20250510041500 +0800">
-		<title lang="zh">台湾最前线第2177集</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510041500 +0800" stop="20250510053000 +0800">
-		<title lang="zh">台湾最前线第2177集</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510053000 +0800" stop="20250510060000 +0800">
-		<title lang="zh">民视晚间台语新闻</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510060000 +0800" stop="20250510070000 +0800">
-		<title lang="zh">民视六点晨间新闻</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510070000 +0800" stop="20250510080000 +0800">
-		<title lang="zh">民视七点晨间新闻</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510080000 +0800" stop="20250510083000 +0800">
-		<title lang="zh">民视八点晨间新闻</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510083000 +0800" stop="20250510090000 +0800">
-		<title lang="zh">国际早报</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510090000 +0800" stop="20250510100000 +0800">
-		<title lang="zh">民视九点新闻</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510100000 +0800" stop="20250510110000 +0800">
-		<title lang="zh">我们一家人WEARETEAMTAIWAN第26集</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510110000 +0800" stop="20250510115000 +0800">
-		<title lang="zh">民视十一点新闻</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510115000 +0800" stop="20250510135000 +0800">
-		<title lang="zh">民视午间新闻</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510135000 +0800" stop="20250510155600 +0800">
-		<title lang="zh">全国第一勇第684集</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510155600 +0800" stop="20250510160000 +0800">
-		<title lang="zh">飞阅文学地景XI第18集</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510160000 +0800" stop="20250510170000 +0800">
-		<title lang="zh">民视四点新闻</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510170000 +0800" stop="20250510174500 +0800">
-		<title lang="zh">新闻观测站第845集</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510174500 +0800" stop="20250510175500 +0800">
-		<title lang="zh">民视晚间新闻抢先报</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510175500 +0800" stop="20250510182500 +0800">
-		<title lang="zh">民视晚间新闻</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510182500 +0800" stop="20250510195500 +0800">
-		<title lang="zh">民视晚间新闻</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510195500 +0800" stop="20250510215500 +0800">
-		<title lang="zh">台湾最前线第2178集</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510215500 +0800" stop="20250510225500 +0800">
-		<title lang="zh">十点不一样</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510225500 +0800" stop="20250510235500 +0800">
-		<title lang="zh">民视异言堂第1360集</title>
-	</programme>
-	<programme channel="民视新闻台" start="20250510235500 +0800" stop="20250510235900 +0800">
-		<title lang="zh">财经周末趴第296集</title>
 	</programme>
 	<channel id="江苏卫视">
 		<display-name lang="zh">江苏卫视</display-name>
