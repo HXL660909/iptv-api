@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-05-19 18:13:48,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
+2025-05-20 06:11:11,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
 
 🌊港·澳·台,#genre#
 翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
@@ -16,8 +16,8 @@ TVBS新闻,http://125.227.210.55:8186/VideoInput/play.ts
 CCTV-1,https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream05/streamPlaylist.m3u8
 CCTV-4,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 CCTV-4,http://119.32.12.17:2901/udp/224.1.100.104:11111
-CCTV-5+,http://119.32.12.17:2901/udp/224.1.100.25:11111
 CCTV-5+,http://omnix.cn:4000/udp/225.1.8.20:8004
+CCTV-5+,http://119.32.12.17:2901/udp/224.1.100.25:11111
 CCTV-7,http://119.32.12.17:2901/udp/224.1.100.27:11111
 CCTV-11,http://119.32.12.17:2901/udp/224.1.100.44:11111
 CCTV-12,http://119.32.12.17:2901/udp/224.1.100.78:11111
@@ -27,7 +27,6 @@ CCTV-16,http://home.yulei.online:9999/rtp/226.0.2.169:9264
 📡卫视频道,#genre#
 广东卫视,http://satellitepull.cnr.cn/live/wxgdws/playlist.m3u8
 浙江卫视,http://119.32.12.17:2901/udp/224.1.100.52:11111
-浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8#mitv://generationnexxxt.com:19806/7bf4b3a65eaf421ab6d71bd8dcc4547a
 北京卫视,http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8
 北京卫视,http://qjrhc.jydjd.top:2911/udp/224.1.100.100:11111
 湖北卫视,http://119.32.12.17:2901/udp/224.1.100.68:11111
