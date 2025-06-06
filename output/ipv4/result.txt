@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-06-06 06:11:16,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
+2025-06-06 18:14:21,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
 
 🌊港·澳·台,#genre#
 翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
@@ -17,13 +17,12 @@ TVBS新闻,http://61.221.215.25:8800/hls/9/index.m3u8
 📺央视频道,#genre#
 CCTV-4,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 CCTV-5,http://omnix.cn:4000/udp/225.1.8.89:8000
-CCTV-5+,http://121.17.146.34:50003/hls/21/index.m3u8
 CCTV-6,http://119.32.12.17:2901/udp/224.1.100.84:11111
 CCTV-7,http://omnix.cn:4000/udp/225.1.8.7:8104
 CCTV-9,http://119.32.12.17:2901/udp/224.1.100.29:11111
-CETV1,http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=cetv4&videoTVChannel=cetv4&P2PChannelID=pd://cctv_p2p_hdcetv4&tai=cetv4&VideoName=cetv4&channelID=cetv4
 CETV1,http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=cetv1&videoTVChannel=cetv1&P2PChannelID=pd://cctv_p2p_hdcetv1&tai=cetv1&VideoName=cetv1&channelID=cetv1
 CETV1,http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=cetv2&videoTVChannel=cetv2&P2PChannelID=pd://cctv_p2p_hdcetv2&tai=cetv2&VideoName=cetv2&channelID=cetv2
+CETV1,http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=cetv4&videoTVChannel=cetv4&P2PChannelID=pd://cctv_p2p_hdcetv4&tai=cetv4&VideoName=cetv4&channelID=cetv4
 CETV1,http://120.198.95.220:9901/tsfile/live/1039_1.m3u8?key=txiptv
 CETV1,rtsp://115.153.254.81/PLTV/88888888/224/3221226858/63768493.smil
 CETV1,rtsp://115.153.240.228:554/PLTV/88888888/224/3221226858/63768493.smil
@@ -46,27 +45,18 @@ CETV4,rtsp://115.153.254.81/PLTV/88888888/224/3221226905/65242632.smil
 
 📡卫视频道,#genre#
 广东卫视,http://satellitepull.cnr.cn/live/wxgdws/playlist.m3u8
-浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8#mitv://generationnexxxt.com:19806/7bf4b3a65eaf421ab6d71bd8dcc4547a
 湖南卫视,http://119.32.12.17:2901/udp/224.1.100.98:11111
 北京卫视,http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8
-北京卫视,http://121.17.146.34:50003/hls/38/index.m3u8
 湖北卫视,http://119.32.12.17:2901/udp/224.1.100.68:11111
 湖北卫视,http://www.745612.xyz:7788/rtp/235.254.198.72:1564
-湖北卫视,http://121.17.146.34:50003/hls/47/index.m3u8
-黑龙江卫视,http://121.17.146.34:50003/hls/44/index.m3u8
-安徽卫视,http://121.17.146.34:50003/hls/46/index.m3u8
-重庆卫视,http://121.17.146.34:50003/hls/49/index.m3u8
 东南卫视,http://satellitepull.cnr.cn/live/wx32fjws/playlist.m3u8
 东南卫视,http://119.32.12.17:2901/udp/224.1.100.56:11111
 甘肃卫视,http://satellitepull.cnr.cn/live/wxgsws/playlist.m3u8
-河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
 河南卫视,http://satellitepull.cnr.cn/live/wxhnws/playlist.m3u8
+河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
 河南卫视,http://119.32.12.17:2901/udp/224.1.100.74:11111
 吉林卫视,http://satellitepull.cnr.cn/live/wxjlws/playlist.m3u8
-江西卫视,http://183.215.134.239:19901/tsfile/live/0138_1.m3u8
 内蒙古卫视,https://hyf000.eu.org/80947108/NMGWS
 山东卫视,http://satellitepull.cnr.cn/live/wxsdws/playlist.m3u8
-四川卫视,http://www.cdnstv.com:6398/hls/1135/index.m3u8
 四川卫视,http://119.32.12.17:2901/udp/224.1.100.72:11111
-西藏卫视,http://121.17.146.34:50003/hls/63/index.m3u8
 新疆卫视,http://218.84.12.186:8001/hls/main/playlist.m3u8
