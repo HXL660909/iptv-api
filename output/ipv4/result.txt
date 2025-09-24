@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-09-24 18:13:27,rtmp://f13h.mine.nu/sat/tv091
+2025-09-25 06:12:34,rtmp://f13h.mine.nu/sat/tv091
 
 🌊港·澳·台,#genre#
 中视,rtmp://f13h.mine.nu/sat/tv091
@@ -7,6 +7,7 @@
 民视,rtmp://f13h.mine.nu/sat/tv051
 华视,rtmp://f13h.mine.nu/sat/tv111
 翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
+翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
 明珠台,http://122.152.202.33/s/81a8a44f/index.m3u8?id=23
 明珠台,http://120.198.101.106:9901/tsfile/live/1008_1.m3u8?key=txiptv
 凤凰香港,https://cdn.iptv8k.top/dl/jrys.php?id=18&time=20240926215313&ip=111.229.253.40
@@ -19,6 +20,7 @@
 广东新闻,https://satellitepull.cnr.cn/live/wxgdxwgb/playlist.m3u8
 
 📺央视频道,#genre#
+CCTV-2,http://113.26.202.52:1299/tsfile/live/0002_1.m3u8
 CCTV-4,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 兵器科技,rtsp://115.153.245.70/PLTV/88888888/224/3221227004/86132185.smil
 兵器科技,rtsp://115.153.247.80/PLTV/88888888/224/3221227004/86132185.smil
