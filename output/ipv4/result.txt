@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-10-02 06:12:38,rtmp://f13h.mine.nu/sat/tv091
+2025-10-02 18:12:26,rtmp://f13h.mine.nu/sat/tv091
 
 🌊港·澳·台,#genre#
 中视,rtmp://f13h.mine.nu/sat/tv091
@@ -7,8 +7,8 @@
 民视,rtmp://f13h.mine.nu/sat/tv051
 华视,rtmp://f13h.mine.nu/sat/tv111
 翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
-翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
 明珠台,http://122.152.202.33/s/81a8a44f/index.m3u8?id=23
+明珠台,http://120.198.101.106:9901/tsfile/live/1008_1.m3u8?key=txiptv
 凤凰香港,https://cdn.iptv8k.top/dl/jrys.php?id=18&time=20240926215313&ip=111.229.253.40
 凤凰中文,https://cdn.iptv8k.top/dl/jrys.php?id=19&time=20240926215313&ip=111.229.253.40
 
@@ -29,6 +29,5 @@ CCTV-4,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 东南卫视,http://satellitepull.cnr.cn/live/wx32fjws/playlist.m3u8
 河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
 河南卫视,http://satellitepull.cnr.cn/live/wxhnws/playlist.m3u8
-河南卫视,http://60.16.0.216:5757/hls/42/index.m3u8
 吉林卫视,http://satellitepull.cnr.cn/live/wxjlws/playlist.m3u8
 山东卫视,http://satellitepull.cnr.cn/live/wxsdws/playlist.m3u8
