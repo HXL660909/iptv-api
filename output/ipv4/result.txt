@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-10-11 06:10:29,rtmp://f13h.mine.nu/sat/tv091
+2025-10-11 18:10:36,rtmp://f13h.mine.nu/sat/tv091
 
 🌊港·澳·台,#genre#
 中视,rtmp://f13h.mine.nu/sat/tv091
@@ -16,8 +16,6 @@
 广东卫视,http://satellitepull.cnr.cn/live/wxgdws/playlist.m3u8
 广东卫视,http://drive.mxmy.net:8888/udp/239.3.1.142:8048
 广东新闻,https://satellitepull.cnr.cn/live/wxgdxwgb/playlist.m3u8
-茂名综合,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9728&tk=a0c4f6cfaba3
-茂名公共,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7418&tk=a0c4f6cfaba3
 
 📺央视频道,#genre#
 CCTV-4,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
@@ -32,4 +30,3 @@ CCTV-4,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 河南卫视,http://satellitepull.cnr.cn/live/wxhnws/playlist.m3u8
 吉林卫视,http://satellitepull.cnr.cn/live/wxjlws/playlist.m3u8
 山东卫视,http://satellitepull.cnr.cn/live/wxsdws/playlist.m3u8
-山西卫视,http://pa.kuangdeng.top:8081/hls/44/index.m3u8
