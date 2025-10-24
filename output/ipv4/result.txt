@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-10-24 06:10:20,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
+2025-10-24 18:13:49,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
 
 📺港澳频道,#genre#
 翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
@@ -14,13 +14,25 @@
 TVBS新闻,http://61.221.215.25:8800/hls/9/index.m3u8
 
 📺央视频道,#genre#
+CCTV-5,http://1.31.14.70:54321/hls/7/index.m3u8
+CCTV-6,http://1.31.14.70:54321/hls/8/index.m3u8
+CCTV-8,http://1.31.14.70:54321/hls/14/index.m3u8
+CCTV-11,http://1.31.14.70:54321/hls/16/index.m3u8
+CCTV-12,http://1.31.14.70:54321/hls/12/index.m3u8
 CCTV-16,http://zqh2333.top:2222/rtp/239.93.55.54:5140
 CCTV-17,http://zqh2333.top:2222/rtp/239.93.24.92:5140
 
 ☘️广东频道,#genre#
-广东卫视,http://drive.mxmy.net:8888/udp/239.3.1.142:8048
 广东卫视,http://satellitepull.cnr.cn/live/wxgdws/playlist.m3u8
+广东卫视,http://1.31.14.70:54321/hls/28/index.m3u8
+广东卫视,http://drive.mxmy.net:8888/udp/239.3.1.142:8048
 
 📡卫视频道,#genre#
 北京卫视,http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8
+湖北卫视,http://1.31.14.70:54321/hls/39/index.m3u8
+重庆卫视,http://1.31.14.70:54321/hls/34/index.m3u8
 河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
+江苏卫视,http://1.31.14.70:54321/hls/3/index.m3u8
+山东卫视,http://1.31.14.70:54321/hls/32/index.m3u8
+四川卫视,http://1.31.14.70:54321/hls/41/index.m3u8
+内蒙古卫视,http://1.31.14.70:54321/hls/55/index.m3u8
