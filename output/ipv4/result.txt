@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-11-14 18:15:58,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
+2025-11-15 06:12:17,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
 
 📺港澳频道,#genre#
 翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
@@ -7,39 +7,21 @@
 凤凰资讯,http://zqh2333.top:2222/rtp/239.93.24.4:2191
 凤凰中文,https://cdn.iptv8k.top/dl/jrys.php?id=19&time=20240926215313&ip=111.229.253.40
 凤凰中文,http://playtv-live.ifeng.com/live/06OLEGEGM4G_audio.m3u8
-凤凰中文,http://106.53.99.30/tv/hk.php?id=fhzw1
 凤凰香港,https://cdn.iptv8k.top/dl/jrys.php?id=18&time=20240926215313&ip=111.229.253.40
-凤凰香港,http://106.53.99.30/tv/hk.php?id=fhxg1
 耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
 中视,http://jlyzzgfhyeao.ap-northeast-1.clawcloudrun.com/smart.php?id=zhongshihd_twn&token=ffmking
 民视新闻,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 
 📺央视频道,#genre#
 CCTV-1,http://106.53.99.30/php/cctv/cctvnews.php?id=cctv1&q=gq
-CCTV-1,http://120.46.223.160/PHP/MG.php?id=608807420
 CCTV-1,http://171.116.216.113:10010/rtp/226.0.1.157:3086
 CCTV-2,http://106.53.99.30/php/cctv/cctvnews.php?id=cctv2&q=gq
-CCTV-2,http://120.46.223.160/PHP/MG.php?id=631780532
-CCTV-3,http://120.46.223.160/PHP/MG.php?id=624878271
 CCTV-4,http://106.53.99.30/php/cctv/cctvnews.php?id=cctv4k&q=lg
-CCTV-4,http://120.46.223.160/PHP/MG.php?id=631780421
-CCTV-5,http://120.46.223.160/PHP/MG.php?id=641886683
-CCTV-5+,http://120.46.223.160/PHP/MG.php?id=641886773
-CCTV-6,http://120.46.223.160/PHP/MG.php?id=624878396
 CCTV-7,http://106.53.99.30/php/cctv/cctvnews.php?id=cctv7&q=gq
-CCTV-7,http://120.46.223.160/PHP/MG.php?id=673168121
-CCTV-8,http://120.46.223.160/PHP/MG.php?id=624878356
 CCTV-9,http://106.53.99.30/php/cctv/cctvnews.php?id=cctv9&q=gq
-CCTV-9,http://120.46.223.160/PHP/MG.php?id=673168140
 CCTV-10,http://106.53.99.30/php/cctv/cctvnews.php?id=cctv10&q=gq
-CCTV-10,http://120.46.223.160/PHP/MG.php?id=624878405
-CCTV-11,http://120.46.223.160/PHP/MG.php?id=667987558
 CCTV-12,http://106.53.99.30/php/cctv/cctvnews.php?id=cctv12&q=gq
-CCTV-12,http://120.46.223.160/PHP/MG.php?id=673168185
 CCTV-13,http://106.53.99.30/php/cctv/cctvnews.php?id=cctv13&q=gq
-CCTV-13,http://120.46.223.160/PHP/MG.php?id=608807423
-CCTV-14,http://120.46.223.160/PHP/MG.php?id=624878440
-CCTV-15,http://120.46.223.160/PHP/MG.php?id=673168223
 CCTV-16,http://zqh2333.top:2222/rtp/239.93.55.54:5140
 CCTV-17,http://106.53.99.30/php/cctv/cctvnews.php?id=cctv17&q=gq
 
@@ -49,5 +31,4 @@ CCTV-17,http://106.53.99.30/php/cctv/cctvnews.php?id=cctv17&q=gq
 📡卫视频道,#genre#
 湖南卫视,http://satellitepull.cnr.cn/live/wx32hunws/playlist.m3u8
 北京卫视,http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8
-北京卫视,http://106.53.99.30/tv/bj.php?id=bjws4k
 河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
