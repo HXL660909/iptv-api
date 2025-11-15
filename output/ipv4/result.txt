@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-11-15 18:10:28,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
+2025-11-16 06:08:03,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
 
 📺港澳频道,#genre#
 翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
@@ -22,7 +22,6 @@ CCTV-4,http://106.53.99.30/php/cctv/cctvnews.php?id=cctv4k&q=lg
 CCTV-7,http://106.53.99.30/php/cctv/cctvnews.php?id=cctv7&q=gq
 CCTV-9,http://106.53.99.30/php/cctv/cctvnews.php?id=cctv9&q=gq
 CCTV-10,http://106.53.99.30/php/cctv/cctvnews.php?id=cctv10&q=gq
-CCTV-10,http://61.184.46.85:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV-12,http://106.53.99.30/php/cctv/cctvnews.php?id=cctv12&q=gq
 CCTV-13,http://106.53.99.30/php/cctv/cctvnews.php?id=cctv13&q=gq
 CCTV-16,http://zqh2333.top:2222/rtp/239.93.55.54:5140
@@ -34,5 +33,4 @@ CCTV-17,http://106.53.99.30/php/cctv/cctvnews.php?id=cctv17&q=gq
 📡卫视频道,#genre#
 湖南卫视,http://satellitepull.cnr.cn/live/wx32hunws/playlist.m3u8
 北京卫视,http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8
-广西卫视,http://sh.lnott.top:880/dx41.m3u8
 河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
