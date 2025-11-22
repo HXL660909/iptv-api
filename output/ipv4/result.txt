@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-11-22 06:10:23,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
+2025-11-22 18:10:21,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
 
 📺港澳频道,#genre#
 翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
@@ -27,6 +27,7 @@ CCTV-17,http://bxtv.3a.ink/migu.php?id=cctv17
 广东卫视,http://satellitepull.cnr.cn/live/wxgdws/playlist.m3u8
 
 📡卫视频道,#genre#
+浙江卫视,http://60.16.0.216:5757/hls/22/index.m3u8
 湖南卫视,http://satellitepull.cnr.cn/live/wx32hunws/playlist.m3u8
 北京卫视,http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8
 河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
