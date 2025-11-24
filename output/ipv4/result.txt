@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-11-24 06:09:53,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
+2025-11-24 18:13:37,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
 
 📺港澳频道,#genre#
 翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
@@ -12,16 +12,7 @@
 民视新闻,http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
 
 📺央视频道,#genre#
-CCTV-6,http://bxtv.3a.ink/migu.php?id=cctv6
-CCTV-7,http://bxtv.3a.ink/migu.php?id=cctv7
-CCTV-8,http://bxtv.3a.ink/migu.php?id=cctv8
-CCTV-9,http://bxtv.3a.ink/migu.php?id=cctv9
-CCTV-10,http://bxtv.3a.ink/migu.php?id=cctv10
-CCTV-12,http://bxtv.3a.ink/migu.php?id=cctv12
-CCTV-14,http://bxtv.3a.ink/migu.php?id=cctv14
-CCTV-15,http://bxtv.3a.ink/migu.php?id=cctv15
 CCTV-16,http://zqh2333.top:2222/rtp/239.93.55.54:5140
-CCTV-17,http://bxtv.3a.ink/migu.php?id=cctv17
 
 ☘️广东频道,#genre#
 广东卫视,http://satellitepull.cnr.cn/live/wxgdws/playlist.m3u8
