@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-11-25 18:15:07,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3&token=512df05ba47edb46400575c93e179adb7981226d414516400ed1d382cb126adc517715d4ccd3a2276bf3c7b72d52f58905225cf0b1cc461b7888443f
+2025-11-26 06:10:48,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3&token=512df05ba47edb46400575c93e179adb7981226d414516400ed1d382cb126adc517715d4ccd3a2276bf3c7b72d52f58905225cf0b1cc461b7888443f
 
 📺港澳频道,#genre#
 翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3&token=512df05ba47edb46400575c93e179adb7981226d414516400ed1d382cb126adc517715d4ccd3a2276bf3c7b72d52f58905225cf0b1cc461b7888443f
@@ -606,8 +606,8 @@ CCTV-17,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/
 三沙卫视,http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/08984400000000060000000000000319/index.m3u8?IAS
 三沙卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226544/1.m3u8
 三沙卫视,http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000319/index.m3u8
+三沙卫视,https://stream1.freetv.fun/2476872184d56573ae915237d8e3c990ded214446351f568b57889cbf63da2e8.m3u8
 三沙卫视,https://stream1.freetv.fun/8bd6b69c423ac31e71c2311ad33f4f291e1314c69005ffb7b3b7defc2944adb2.m3u8
-三沙卫视,https://stream1.freetv.fun/san-sha-wei-shi-5.m3u8
 天津卫视,http://php.jdshipin.com/TVOD/hljyd.php?id=3221226459
 天津卫视,http://j.x.bkpcp.top/jx/TIANJHD
 天津卫视,http://iptv.huuc.edu.cn/hls/tjhd.m3u8
