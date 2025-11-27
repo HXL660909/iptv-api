@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/HXL660909/iptv-api/refs/heads/master/output/epg/epg.gz"
-#EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/翡翠台.png" group-title="🕘️更新时间",2025-11-27 06:10:49
+#EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/翡翠台.png" group-title="🕘️更新时间",2025-11-27 18:18:52
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3&token=512df05ba47edb46400575c93e179adb7981226d414516400ed1d382cb126adc517715d4ccd3a2276bf3c7b72d52f58905225cf0b1cc461b7888443f
 #EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/翡翠台.png" group-title="📺港澳频道",翡翠台
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3&token=512df05ba47edb46400575c93e179adb7981226d414516400ed1d382cb126adc517715d4ccd3a2276bf3c7b72d52f58905225cf0b1cc461b7888443f
@@ -151,6 +151,8 @@ https://live.catvod.com/live.php?id=ctv_taiwan&token=ce9fe49ec911cd3baca19ab32e1
 https://live.catvod.com/live.php?id=ctv_taiwan&token=73f93daabaa0185264869ad73f992fb9337b45fc8a368544c6a5e9aef211c6cb%3A1764033616%3ANjQuMjM2LjE0MC4xNzc%3D
 #EXTINF:-1 tvg-name="公视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/公视.png" group-title="📺港澳频道",公视
 https://live.catvod.com/live.php?id=ctv_taiwan&token=fa4942f1e9eb7d06363034612d629915289ef84558079eb00d33366f24f8dd52%3A1764120126%3AMTcyLjIxNS4yMTcuNzA%3D
+#EXTINF:-1 tvg-name="公视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/公视.png" group-title="📺港澳频道",公视
+https://live.catvod.com/live.php?id=ctv_taiwan&token=d8364ec0126293208f69e804967807984bacd23d70a2b2ea38f7d39cad2c56d8%3A1764206292%3ANTIuMTU5LjIyOS42NQ%3D%3D
 #EXTINF:-1 tvg-name="民视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/民视.png" group-title="📺港澳频道",民视
 https://hls-gateway.vpstv.net/streams/476986.m3u8
 #EXTINF:-1 tvg-name="民视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/民视.png" group-title="📺港澳频道",民视
@@ -219,6 +221,8 @@ https://stream1.freetv.fun/nian-dai-xin-wen-5.ctv
 https://live.catvod.com/live.php?id=niandainews_twn&token=b7d464fd467c10ce35cdf0f622fda582c9a71976c2524b4ba4c6acb71dd89fe3%3A1764033616%3ANjQuMjM2LjE0MC4xNzc%3D
 #EXTINF:-1 tvg-name="年代新闻" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/年代新闻.png" group-title="📺港澳频道",年代新闻
 https://live.catvod.com/live.php?id=niandainews_twn&token=4cec0469d5a799924badc91e96ba9e8a7dc4429ee65eec92aebe3f155747d4d5%3A1764120126%3AMTcyLjIxNS4yMTcuNzA%3D
+#EXTINF:-1 tvg-name="年代新闻" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/年代新闻.png" group-title="📺港澳频道",年代新闻
+https://live.catvod.com/live.php?id=niandainews_twn&token=f34b848f7f5ba58db11c14a6920f4d8d1b04c4b53f774be731b74fd698fdc076%3A1764206292%3ANTIuMTU5LjIyOS42NQ%3D%3D
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="📺央视频道",CCTV-1
 http://php.jdshipin.com/TVOD/iptv.php?id=rthk33
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="📺央视频道",CCTV-1
