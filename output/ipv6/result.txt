@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-11-30 06:10:52,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3&token=512df05ba47edb46400575c93e179adb7981226d414516400ed1d382cb126adc517715d4ccd3a2276bf3c7b72d52f58905225cf0b1cc461b7888443f
+2025-11-30 18:15:03,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3&token=512df05ba47edb46400575c93e179adb7981226d414516400ed1d382cb126adc517715d4ccd3a2276bf3c7b72d52f58905225cf0b1cc461b7888443f
 
 📺港澳频道,#genre#
 翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3&token=512df05ba47edb46400575c93e179adb7981226d414516400ed1d382cb126adc517715d4ccd3a2276bf3c7b72d52f58905225cf0b1cc461b7888443f
@@ -79,6 +79,7 @@
 公视,https://live.catvod.com/live.php?id=ctv_taiwan&token=fa4942f1e9eb7d06363034612d629915289ef84558079eb00d33366f24f8dd52%3A1764120126%3AMTcyLjIxNS4yMTcuNzA%3D
 公视,https://live.catvod.com/live.php?id=ctv_taiwan&token=d8364ec0126293208f69e804967807984bacd23d70a2b2ea38f7d39cad2c56d8%3A1764206292%3ANTIuMTU5LjIyOS42NQ%3D%3D
 公视,https://live.catvod.com/live.php?id=ctv_taiwan&token=6a512151ad2d551b56f19e01e66bcb9fbaeab6bc6bfb943800f5662ab812ff57%3A1764379082%3AMTM1LjExOS4yMzYuNTE%3D
+公视,https://live.catvod.com/live.php?id=ctv_taiwan&token=79c3e3be54d560fec9c9f27e594a72ead156e3a0c8985d46d1ed062659ff0218%3A1764466686%3ANjguMjIwLjYxLjI%3D
 民视,https://hls-gateway.vpstv.net/streams/476986.m3u8
 民视,http://breezy-audrie-zspace-7524863c.koyeb.app/vipsir?token=leifeng&id=4gtv-4gtv002
 民视,https://tmxk.pp.ua/litv.php?token=tmxk&id=4gtv-4gtv002
