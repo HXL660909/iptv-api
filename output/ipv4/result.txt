@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-12-06 18:11:24,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
+2025-12-07 06:10:18,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
 
 📺港澳频道,#genre#
 翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
@@ -8,21 +8,8 @@
 凤凰中文,https://cdn.iptv8k.top/dl/jrys.php?id=19&time=20240926215313&ip=111.229.253.40
 凤凰中文,http://playtv-live.ifeng.com/live/06OLEGEGM4G_audio.m3u8
 凤凰香港,https://cdn.iptv8k.top/dl/jrys.php?id=18&time=20240926215313&ip=111.229.253.40
-耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
 耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
-中视,http://m-star.direct.quickconnect.to:7531/of-4gtv-4gtv040/index.m3u8?proxy=true
-中视,http://m-star.direct.quickconnect.to:7531/4gtv-4gtv040/index.m3u8?proxy=true
-中视,http://m-star.direct.quickconnect.to:7531/li-4gtv-4gtv040/index.m3u8?proxy=true
-中视,http://210.61.15.55:50007/of-4gtv-4gtv040/index.m3u8?proxy=true
-中视,http://210.61.15.55:50007/4gtv-4gtv040/index.m3u8?proxy=true
-中视,http://210.61.15.55:50007/li-4gtv-4gtv040/index.m3u8?proxy=true
-中视,http://vv.hotinosin.eu.org:10361/4gtv-4gtv040/index.m3u8?proxy=true
-中视,http://vv.hotinosin.eu.org:10361/li-4gtv-4gtv040/index.m3u8?proxy=true
-台视,http://m-star.direct.quickconnect.to:7531/4gtv-4gtv066/index.m3u8?proxy=true
-台视,http://m-star.direct.quickconnect.to:7531/li-4gtv-4gtv066/index.m3u8?proxy=true
-台视,http://210.61.15.55:50007/li-4gtv-4gtv066/index.m3u8?proxy=true
-台视,http://210.61.15.55:50007/4gtv-4gtv066/index.m3u8?proxy=true
-台视,http://vv.hotinosin.eu.org:10361/li-4gtv-4gtv066/index.m3u8?proxy=true
+耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
 民视新闻,http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
 
 📺央视频道,#genre#
