@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-12-08 18:13:48,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
+2025-12-09 06:11:09,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
 
 📺港澳频道,#genre#
 翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
@@ -52,8 +52,8 @@
 凤凰香港,https://smart.pendy.dpdns.org/Smart.php?id=hkphoenix_twn
 凤凰香港,https://epg.pw/stream/8770e89223a086eb1b8a0c931e42296d772a8069ad3eb72540e0c434e7cb3e93.m3u8
 凤凰香港,https://cdn9.163189.xyz/smt3.1.1.php?id=hkphoenix_twn
-耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
 耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
+耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
 中视,https://stream1.freetv.fun/zhong-shi-6.m3u8
 中视,http://breezy-audrie-zspace-7524863c.koyeb.app/vipsir?token=leifeng&id=4gtv-4gtv040
 中视,https://live.catvod.com/live.php?id=zhongshihd_twn&token=7d25f50f7f7a31c3ed66077f8544559d5e26138975abbf58e8b8fc41fe13f5b6%3A1760491003%3ANTIuMTUwLjI5Ljk4
