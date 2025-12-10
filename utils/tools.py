@@ -322,7 +322,7 @@ def merge_objects(*objects, match_key=None):
 
 
 def get_public_url(port: int = config.app_port) -> str:
-    host = config.public_domain or config.app_host
+    host = config.public_domain
     scheme = config.public_scheme
     default_port = 80 if scheme == 'http' else 443
     port_part = f":{port}" if port != default_port else ""
@@ -771,3 +771,22 @@ def render_nginx_conf(nginx_conf_template, nginx_conf):
 
     with open(nginx_conf, 'w', encoding='utf-8') as f:
         f.write(content)
+
+
+def parse_times(times_str: str):
+    """
+    Parse times from a string in the format "HH:MM, HH:MM, ..."
+    """
+    times = []
+    for part in (times_str or "").split(","):
+        part = part.strip()
+        if not part:
+            continue
+        try:
+            hh_mm = part.split(":")
+            h = int(hh_mm[0])
+            m = int(hh_mm[1]) if len(hh_mm) > 1 else 0
+            times.append((h, m))
+        except Exception:
+            continue
+    return times
