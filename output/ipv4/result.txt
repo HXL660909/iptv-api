@@ -1,9 +1,9 @@
 🕘️更新时间,#genre#
-2025-12-11 06:12:36,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
+2025-12-11 18:13:16,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
 
 📺港澳频道,#genre#
-翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
 翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
+翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
 翡翠台,http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv
 凤凰资讯,http://playtv-live.ifeng.com/live/06OLEEWQKN4_audio.m3u8
 凤凰中文,https://cdn.iptv8k.top/dl/jrys.php?id=19&time=20240926215313&ip=111.229.253.40
@@ -11,6 +11,8 @@
 凤凰香港,https://cdn.iptv8k.top/dl/jrys.php?id=18&time=20240926215313&ip=111.229.253.40
 耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
 耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
+中视,http://141.11.87.241:20013/4gtv-4gtv040/index.m3u8?proxy=true
+台视,http://141.11.87.241:20013/4gtv-4gtv066/index.m3u8?proxy=true
 民视新闻,http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
 
 📺央视频道,#genre#
@@ -29,5 +31,6 @@ CCTV-13,http://144.255.32.94:8288/rtp/239.21.2.3:5002
 北京卫视,http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8
 东方卫视,http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
 河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
+山西卫视,http://223.10.164.178:8459/rtp/239.1.1.1:8001
 四川卫视,http://zqh2333.top:2222/rtp/239.94.0.115:5140
 四川卫视,http://171.125.90.120:6001/rtp/226.0.1.250:2126

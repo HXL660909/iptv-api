@@ -1,9 +1,9 @@
 🕘️更新时间,#genre#
-2025-12-11 06:12:36,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
+2025-12-11 18:13:16,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
 
 📺港澳频道,#genre#
-翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
 翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
+翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
 翡翠台,http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv
 翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3&token=512df05ba47edb46400575c93e179adb7981226d414516400ed1d382cb126adc517715d4ccd3a2276bf3c7b72d52f58905225cf0b1cc461b7888443f
 翡翠台,http://cdn9.163189.xyz/smt1.1.php?id=jade_twn
@@ -54,6 +54,7 @@
 凤凰香港,https://cdn9.163189.xyz/smt3.1.1.php?id=hkphoenix_twn
 耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
 耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
+中视,http://141.11.87.241:20013/4gtv-4gtv040/index.m3u8?proxy=true
 中视,https://stream1.freetv.fun/zhong-shi-6.m3u8
 中视,http://breezy-audrie-zspace-7524863c.koyeb.app/vipsir?token=leifeng&id=4gtv-4gtv040
 中视,https://live.catvod.com/live.php?id=zhongshihd_twn&token=7d25f50f7f7a31c3ed66077f8544559d5e26138975abbf58e8b8fc41fe13f5b6%3A1760491003%3ANTIuMTUwLjI5Ljk4
@@ -63,7 +64,7 @@
 中视,https://mao.ffmking888.dpdns.org/?id=5Lit6KaW&auth=30234cedf871581989d3c91a3daec1e9f50e024aafcfa2247e7d44d91bb8d02fbc3f571b2d67f9d82642cc1d0f133d89
 中视,https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=4gtv-4gtv040
 中视,https://tmxk.pp.ua/litv.php?token=tmxk&id=4gtv-4gtv040
-中视,https://live.catvod.com/live.php?id=zhongshihd_twn&token=4232ba632d2f2bb9d5a6e517adca4fbac9e8553a015e3af8a8cb3cb8e54e1243%3A1763947601%3AMjAuMTY4LjExMS43MA%3D%3D
+台视,http://141.11.87.241:20013/4gtv-4gtv066/index.m3u8?proxy=true
 台视,https://stream1.freetv.fun/tai-shi-6.m3u8
 台视,http://breezy-audrie-zspace-7524863c.koyeb.app/vipsir?token=leifeng&id=4gtv-4gtv066
 台视,https://live.catvod.com/live.php?id=ttv_taiwan&token=895f38334c921ce7456b64d40290cc12ec41512c0e5ef021e4338284ddc31d2e%3A1760491003%3ANTIuMTUwLjI5Ljk4
@@ -73,7 +74,6 @@
 台视,https://live.catvod.com/live.php?id=ttv_taiwan&token=5f3327826e3f0f360b39d4dbadaa45bebe418176c0bf5f074f13659325e30bf2%3A1763947601%3AMjAuMTY4LjExMS43MA%3D%3D
 台视,https://stream1.freetv.fun/tai-shi-1.ctv
 台视,https://stream1.freetv.fun/tai-shi-4.ctv
-台视,https://stream1.freetv.fun/tai-shi-7.ctv
 公视,https://live.catvod.com/live.php?id=ctv_taiwan&token=74e3eebbb4b5b816a04b18610fd423bd85957338a0fac55e6d393a1a620fcc62%3A1760491003%3ANTIuMTUwLjI5Ljk4
 公视,https://hls-gateway.vpstv.net/streams/476984.m3u8
 公视,https://live.catvod.com/live.php?id=ctv_taiwan&token=ce9fe49ec911cd3baca19ab32e1290da16bdff281ad0e2941f346f895cf09243%3A1763947601%3AMjAuMTY4LjExMS43MA%3D%3D
@@ -91,6 +91,7 @@
 民视,http://breezy-audrie-zspace-7524863c.koyeb.app/vipsir?token=leifeng&id=4gtv-4gtv155
 民视,https://tmxk.pp.ua/litv.php?token=tmxk&id=4gtv-4gtv155
 民视,https://stream1.freetv.fun/min-shi-1.m3u8
+民视,https://stream1.freetv.fun/min-shi-10.m3u8
 民视新闻,http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
 民视新闻,https://hls-gateway.vpstv.net/streams/479210.m3u8
 民视新闻,https://stream1.freetv.fun/min-shi-xin-wen-12.m3u8
@@ -573,6 +574,7 @@ CCTV-17,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/
 山东卫视,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226456/index.m3u8
 山东卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226244/1.m3u8
 山东卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226487/1.m3u8
+山西卫视,http://223.10.164.178:8459/rtp/239.1.1.1:8001
 山西卫视,http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010114
 山西卫视,http://j.x.bkpcp.top/jx/SXWS
 山西卫视,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226392/index.m3u8
@@ -582,7 +584,6 @@ CCTV-17,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/
 山西卫视,https://live.lalifeier.eu.org/sxrtv/sxws.m3u8?t=1746292937&key=8097fcc15ecf55c37b8908da7be2be63
 山西卫视,https://live.lalifeier.eu.org/sxrtv/sxws.m3u8?t=1746307365&key=3eeaa00e3276abf097ceb1bb753ca265
 山西卫视,http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel7/playlist.m3u8
-山西卫视,https://stream1.freetv.fun/shan-xi-wei-shi-25.m3u8
 陕西卫视,http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010113
 陕西卫视,http://z.b.bkpcp.top/m.php?id=sxws
 陕西卫视,http://gat.bkpcp.top/ymg.php?id=sxws

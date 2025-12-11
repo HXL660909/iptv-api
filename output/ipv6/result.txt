@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-12-11 06:12:36,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3&token=512df05ba47edb46400575c93e179adb7981226d414516400ed1d382cb126adc517715d4ccd3a2276bf3c7b72d52f58905225cf0b1cc461b7888443f
+2025-12-11 18:13:16,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3&token=512df05ba47edb46400575c93e179adb7981226d414516400ed1d382cb126adc517715d4ccd3a2276bf3c7b72d52f58905225cf0b1cc461b7888443f
 
 📺港澳频道,#genre#
 翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3&token=512df05ba47edb46400575c93e179adb7981226d414516400ed1d382cb126adc517715d4ccd3a2276bf3c7b72d52f58905225cf0b1cc461b7888443f
@@ -89,6 +89,7 @@
 民视,http://breezy-audrie-zspace-7524863c.koyeb.app/vipsir?token=leifeng&id=4gtv-4gtv155
 民视,https://tmxk.pp.ua/litv.php?token=tmxk&id=4gtv-4gtv155
 民视,https://stream1.freetv.fun/min-shi-1.m3u8
+民视,https://stream1.freetv.fun/min-shi-10.m3u8
 民视新闻,https://hls-gateway.vpstv.net/streams/479210.m3u8
 民视新闻,https://stream1.freetv.fun/min-shi-xin-wen-12.m3u8
 民视新闻,http://breezy-audrie-zspace-7524863c.koyeb.app/vipsir?token=leifeng&id=litv-ftv13
