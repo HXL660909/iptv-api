@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-12-12 18:12:59,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
+2025-12-13 06:11:03,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
 
 📺港澳频道,#genre#
 翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
@@ -12,7 +12,6 @@
 翡翠台,https://migu.188766.xyz/?migutoken=60fcd517eaea3c7ffcaf43f9d0074807&id=%E7%BF%A1%E7%BF%A0%E5%8F%B0&pp=1
 翡翠台,https://stream1.freetv.fun/fei-cui-13.ctv
 翡翠台,https://cdn3.163189.xyz/live/fct/stream.m3u8
-明珠台,http://iptv.4666888.xyz/iptv2A.php?id=29
 明珠台,http://cdn9.163189.xyz/smt1.1.php?id=pearl_twn
 明珠台,https://migu.188766.xyz/?migutoken=9e37fc0c1b7b806ba45854b6540f85b8&id=pearl_twn&type=dy
 明珠台,https://stream1.freetv.fun/ming-zhu-12.ctv
@@ -22,6 +21,7 @@
 明珠台,https://stream1.freetv.fun/ming-zhu-11.ctv
 明珠台,https://stream1.freetv.fun/ming-zhu-2.ctv
 明珠台,https://stream1.freetv.fun/ming-zhu-3.ctv
+明珠台,https://stream1.freetv.fun/ming-zhu-6.ctv
 凤凰资讯,http://playtv-live.ifeng.com/live/06OLEEWQKN4_audio.m3u8
 凤凰资讯,http://php.jdshipin.com:8880/smt.php?id=phoenixinfo_hd
 凤凰资讯,https://migu.188766.xyz/?migutoken=e0176f075c5ec7c1f92eacec5ce41a24&id=phoenixinfo_hd&type=dy
