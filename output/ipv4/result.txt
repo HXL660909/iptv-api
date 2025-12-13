@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-12-13 06:11:03,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
+2025-12-13 18:10:52,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
 
 📺港澳频道,#genre#
 翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
@@ -29,7 +29,10 @@ CCTV-13,http://144.255.32.94:8288/rtp/239.21.2.3:5002
 湖南卫视,http://171.125.90.120:6001/rtp/226.0.1.246:2125
 北京卫视,http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8
 东方卫视,http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
+海南卫视,http://124.64.223.204:8686/rtp/239.3.1.45:8304
 河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
-山西卫视,http://223.10.164.178:8459/rtp/239.1.1.1:8001
+青海卫视,http://115.48.161.66:9901/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0
+陕西卫视,http://124.64.223.204:8686/rtp/239.3.1.41:8140
 四川卫视,http://zqh2333.top:2222/rtp/239.94.0.115:5140
 四川卫视,http://171.125.90.120:6001/rtp/226.0.1.250:2126
+三沙卫视,http://124.64.223.204:8686/rtp/239.3.1.155:4120
