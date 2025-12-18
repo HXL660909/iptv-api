@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-12-18 18:13:18,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
+2025-12-19 06:11:59,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
 
 📺港澳频道,#genre#
 翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
@@ -52,8 +52,8 @@
 凤凰香港,https://smart.pendy.dpdns.org/Smart.php?id=hkphoenix_twn
 凤凰香港,https://epg.pw/stream/8770e89223a086eb1b8a0c931e42296d772a8069ad3eb72540e0c434e7cb3e93.m3u8
 凤凰香港,https://cdn9.163189.xyz/smt3.1.1.php?id=hkphoenix_twn
-耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
 耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
+耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
 中视,https://stream1.freetv.fun/zhong-shi-6.m3u8
 中视,http://breezy-audrie-zspace-7524863c.koyeb.app/vipsir?token=leifeng&id=4gtv-4gtv040
 中视,https://live.catvod.com/live.php?id=zhongshihd_twn&token=7d25f50f7f7a31c3ed66077f8544559d5e26138975abbf58e8b8fc41fe13f5b6%3A1760491003%3ANTIuMTUwLjI5Ljk4
@@ -64,7 +64,6 @@
 中视,https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=4gtv-4gtv040
 中视,https://tmxk.pp.ua/litv.php?token=tmxk&id=4gtv-4gtv040
 中视,https://live.catvod.com/live.php?id=zhongshihd_twn&token=4232ba632d2f2bb9d5a6e517adca4fbac9e8553a015e3af8a8cb3cb8e54e1243%3A1763947601%3AMjAuMTY4LjExMS43MA%3D%3D
-台视,http://165.154.226.214:50007/li-4gtv-4gtv066/index.m3u8?proxy=true
 台视,https://stream1.freetv.fun/tai-shi-6.m3u8
 台视,http://breezy-audrie-zspace-7524863c.koyeb.app/vipsir?token=leifeng&id=4gtv-4gtv066
 台视,https://live.catvod.com/live.php?id=ttv_taiwan&token=895f38334c921ce7456b64d40290cc12ec41512c0e5ef021e4338284ddc31d2e%3A1760491003%3ANTIuMTUwLjI5Ljk4
@@ -74,6 +73,7 @@
 台视,https://live.catvod.com/live.php?id=ttv_taiwan&token=5f3327826e3f0f360b39d4dbadaa45bebe418176c0bf5f074f13659325e30bf2%3A1763947601%3AMjAuMTY4LjExMS43MA%3D%3D
 台视,https://stream1.freetv.fun/tai-shi-1.ctv
 台视,https://stream1.freetv.fun/tai-shi-4.ctv
+台视,https://stream1.freetv.fun/tai-shi-7.ctv
 公视,https://live.catvod.com/live.php?id=ctv_taiwan&token=74e3eebbb4b5b816a04b18610fd423bd85957338a0fac55e6d393a1a620fcc62%3A1760491003%3ANTIuMTUwLjI5Ljk4
 公视,https://hls-gateway.vpstv.net/streams/476984.m3u8
 公视,https://live.catvod.com/live.php?id=ctv_taiwan&token=ce9fe49ec911cd3baca19ab32e1290da16bdff281ad0e2941f346f895cf09243%3A1763947601%3AMjAuMTY4LjExMS43MA%3D%3D
@@ -376,8 +376,8 @@ CCTV-17,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/
 浙江卫视,http://ikuai.zlsip.top:4022/rtp/239.3.1.137:8036
 浙江卫视,http://ali-vl.cztv.com/channels/lantian/channel001/360p.m3u8
 湖南卫视,http://satellitepull.cnr.cn/live/wx32hunws/playlist.m3u8
-湖南卫视,http://116.237.37.244:8888/rtp/233.18.204.227:5140
 湖南卫视,http://171.83.103.119:9999/rtp/239.69.1.13:9718
+湖南卫视,http://116.237.37.244:8888/rtp/233.18.204.227:5140
 湖南卫视,http://171.83.103.119:9999/rtp/239.69.2.34:11358
 湖南卫视,http://171.125.90.120:6001/rtp/226.0.1.246:2125
 湖南卫视,http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010058
@@ -595,12 +595,12 @@ CCTV-17,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/
 陕西卫视,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226457/index.m3u8
 陕西卫视,https://www.freetv.top/migu/738910838.m3u8?migutoken=3899cd1daaa04f812c6d4b13126e3c00ad177635abc5559f1b596e814ff8eb3d745e7bd40b881206a2852a5ed041ca424112cf1d9b385c72ea9de42c8d86f45227af0f51a8b4f4c18a038a8e6d
 陕西卫视,https://www.freetv.top/migu/738910838.m3u8?migutoken=35df06ac83a8fe0b0d98f96b8dbf5821d2a57fbd279c10148f5eb543353c48d828c15e639a63919e023774c69fac3a6f5a2bbfd1ee773d77c0dc154b9acd0c77e84c99627dd15f852e56ab3281
+四川卫视,http://171.83.103.119:9999/rtp/239.69.2.39:11388
+四川卫视,http://zqh2333.top:2222/rtp/239.94.0.115:5140
 四川卫视,http://116.237.37.244:8888/rtp/239.45.3.48:5140
 四川卫视,http://116.237.37.244:8888/rtp/233.18.204.225:5140
-四川卫视,http://171.83.103.119:9999/rtp/239.69.1.28:9808
 四川卫视,http://171.125.90.120:6001/rtp/226.0.1.250:2126
-四川卫视,http://zqh2333.top:2222/rtp/239.94.0.115:5140
-四川卫视,http://171.83.103.119:9999/rtp/239.69.2.39:11388
+四川卫视,http://171.83.103.119:9999/rtp/239.69.1.28:9808
 四川卫视,http://php.jdshipin.com/TVOD/hljyd.php?id=3221226338
 四川卫视,http://z.b.bkpcp.top/m.php?id=scws
 四川卫视,http://j.x.bkpcp.top/jx/SICHD
