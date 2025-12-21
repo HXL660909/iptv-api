@@ -1,9 +1,9 @@
 🕘️更新时间,#genre#
-2025-12-21 18:11:49,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
+2025-12-22 06:11:33,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
 
 📺港澳频道,#genre#
-翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
 翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
+翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
 翡翠台,http://iptv.4666888.xyz/iptv2A.php?id=34
 翡翠台,http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv
 凤凰资讯,http://playtv-live.ifeng.com/live/06OLEEWQKN4_audio.m3u8
@@ -26,8 +26,8 @@ CCTV-10,http://yp.qqqtv.top/1/api.php?id=CCTV-10HD&auth=666858
 CCTV-13,http://144.255.32.94:8288/rtp/239.21.2.3:5002
 CCTV-15,http://yp.qqqtv.top/1/api.php?id=CCTV-15HD&auth=666858
 CCTV-17,http://yp.qqqtv.top/1/api.php?id=CCTV-17HD&auth=666858
-兵器科技,http://171.83.103.119:9999/rtp/239.69.1.79:10114
 兵器科技,http://171.125.90.120:6001/rtp/226.0.2.223:9696
+兵器科技,http://171.83.103.119:9999/rtp/239.69.1.79:10114
 
 ☘️广东频道,#genre#
 广东卫视,http://satellitepull.cnr.cn/live/wxgdws/playlist.m3u8
@@ -38,22 +38,22 @@ CCTV-17,http://yp.qqqtv.top/1/api.php?id=CCTV-17HD&auth=666858
 湖南卫视,http://satellitepull.cnr.cn/live/wx32hunws/playlist.m3u8
 湖南卫视,http://171.83.103.119:9999/rtp/239.69.2.34:11358
 湖南卫视,http://171.83.103.119:9999/rtp/239.69.1.13:9718
-湖南卫视,http://116.237.37.244:8888/rtp/233.18.204.227:5140
 湖南卫视,http://171.125.90.120:6001/rtp/226.0.1.246:2125
+湖南卫视,http://116.237.37.244:8888/rtp/233.18.204.227:5140
 北京卫视,http://yp.qqqtv.top/1/api.php?id=%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86HD&auth=666858
 北京卫视,http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8
 北京卫视,http://116.237.37.244:8888/rtp/239.45.3.123:5140
 湖北卫视,http://yp.qqqtv.top/1/api.php?id=%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86HD&auth=666858
 重庆卫视,http://yp.qqqtv.top/1/api.php?id=%E9%87%8D%E5%BA%86%E5%8D%AB%E8%A7%86HD&auth=666858
-东方卫视,http://yp.qqqtv.top/1/api.php?id=%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86HD&auth=666858
 东方卫视,http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
+东方卫视,http://yp.qqqtv.top/1/api.php?id=%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86HD&auth=666858
 广西卫视,http://yp.qqqtv.top/1/api.php?id=%E5%B9%BF%E8%A5%BF%E5%8D%AB%E8%A7%86HD&auth=666858
 海南卫视,http://yp.qqqtv.top/1/api.php?id=%E6%B5%B7%E5%8D%97%E5%8D%AB%E8%A7%86HD&auth=666858
 河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
 山西卫视,http://yp.qqqtv.top/1/api.php?id=%E5%B1%B1%E8%A5%BF%E5%8D%AB%E8%A7%86HD&auth=666858
+四川卫视,http://zqh2333.top:2222/rtp/239.94.0.115:5140
+四川卫视,http://116.237.37.244:8888/rtp/239.45.3.48:5140
 四川卫视,http://171.83.103.119:9999/rtp/239.69.1.28:9808
 四川卫视,http://116.237.37.244:8888/rtp/233.18.204.225:5140
-四川卫视,http://116.237.37.244:8888/rtp/239.45.3.48:5140
 四川卫视,http://171.83.103.119:9999/rtp/239.69.2.39:11388
 四川卫视,http://171.125.90.120:6001/rtp/226.0.1.250:2126
-四川卫视,http://zqh2333.top:2222/rtp/239.94.0.115:5140
