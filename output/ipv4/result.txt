@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-12-25 06:11:54,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
+2025-12-25 18:13:07,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
 
 📺港澳频道,#genre#
 翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40『线路08』
@@ -27,7 +27,6 @@ CCTV-17,http://yp.qqqtv.top/1/api.php?id=CCTV-17HD&auth=666858
 世界地理,http://yp.qqqtv.top/1/api.php?id=CCTV-%E4%B8%96%E7%95%8C%E5%9C%B0%E7%90%86&auth=666858
 兵器科技,http://yp.qqqtv.top/1/api.php?id=CCTV-%E5%85%B5%E5%99%A8%E7%A7%91%E6%8A%80&auth=666858
 兵器科技,http://171.83.103.119:9999/rtp/239.69.1.79:10114
-兵器科技,http://171.125.90.120:6001/rtp/226.0.2.223:9696
 
 ☘️广东频道,#genre#
 广东卫视,http://satellitepull.cnr.cn/live/wxgdws/playlist.m3u8
@@ -49,10 +48,9 @@ CCTV-17,http://yp.qqqtv.top/1/api.php?id=CCTV-17HD&auth=666858
 海南卫视,http://yp.qqqtv.top/1/api.php?id=%E6%B5%B7%E5%8D%97%E5%8D%AB%E8%A7%86HD&auth=666858
 河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
 山西卫视,http://yp.qqqtv.top/1/api.php?id=%E5%B1%B1%E8%A5%BF%E5%8D%AB%E8%A7%86HD&auth=666858
-四川卫视,http://171.83.103.119:9999/rtp/239.69.1.28:9808
+四川卫视,http://116.237.37.244:8888/rtp/233.18.204.225:5140
 四川卫视,http://zqh2333.top:2222/rtp/239.94.0.115:5140
 四川卫视,http://171.83.103.119:9999/rtp/239.69.2.39:11388
-四川卫视,http://116.237.37.244:8888/rtp/233.18.204.225:5140
-四川卫视,http://171.125.90.120:6001/rtp/226.0.1.250:2126
+四川卫视,http://171.83.103.119:9999/rtp/239.69.1.28:9808
 四川卫视,http://116.237.37.244:8888/rtp/239.45.3.48:5140
 西藏卫视,http://yp.qqqtv.top/1/api.php?id=%E8%A5%BF%E8%97%8F%E5%8D%AB%E8%A7%86&auth=666858
