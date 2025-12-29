@@ -34,10 +34,6 @@
 
 </div>
 
-🎉💻 [IPTV-Web](https://github.com/Guovin/iptv-web)：IPTV电视直播源管理平台，支持在线播放等功能，开发中...
-
-💖 [频道别名收集计划](https://github.com/Guovin/iptv-api/discussions/1082)
-
 - [✅ 核心特性](#核心特性)
 - [🔗 最新结果](#最新结果)
 - [⚙️ 配置参数](#配置)
@@ -84,7 +80,7 @@
 | **自定义模板**    |  ✅   | 生成您想要的个性化频道                                  |
 | **频道别名**     |  ✅   | 提升频道结果获取量与准确率，支持正则表达式                        |
 | **多种源获取方式**  |  ✅   | 支持本地源、组播源、酒店源、订阅源、关键字搜索                      |
-| **RTMP推流**   |  ✅   | 支持 HLS 模式（分段/自适应码率），提高兼容性并减少缓冲，改善弱网播放体验      |
+| **RTMP推流**   |  ✅   | 支持 HLS 模式，提高兼容性并减少缓冲，改善弱网播放体验，并支持浏览器或播放器播放   |
 | **回放类接口**    |  ✅   | 支持回放类接口的获取与生成                                |
 | **EPG电子节目单** |  ✅   | 显示频道预告内容                                     |
 | **频道台标**     |  ✅   | 支持自定义频道台标库来源                                 |
@@ -140,8 +136,9 @@ https://raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
 | open_m3u_result        | 开启转换生成 m3u 文件类型结果链接，支持显示频道图标                                                                                                                                                | True              |
 | urls_limit             | 单个频道接口数量                                                                                                                                                                    | 10                |
 | update_time_position   | 更新时间显示位置，需要开启 open_update_time 才能生效，可选值: top、bottom；top: 显示于结果顶部，bottom: 显示于结果底部                                                                                            | top               |
+| language               | 系统语言设置；可选值: zh_CN、en                                                                                                                                                        | zh_CN             |
 | update_mode            | 定时执行更新时间模式，不作用于工作流；可选值: interval、time； interval: 按间隔时间执行，time: 按指定时间点执行                                                                                                     | interval          |
-| update_interval        | 定时执行更新时间间隔，单位小时，设置 0 或空则只运行一次                                                                                                                                               | 12                |
+| update_interval        | 定时执行更新时间间隔，仅在update_mode = interval时生效，单位小时，设置 0 或空则只运行一次                                                                                                                   | 12                |
 | update_times           | 定时执行更新时间点，仅在update_mode = time时生效，格式 HH:MM，支持多个时间点逗号分隔                                                                                                                      |                   |
 | update_startup         | 启动时执行更新，用于控制程序启动后是否立即执行一次更新                                                                                                                                                 | True              |
 | time_zone              | 时区，可用于控制定时执行时区或显示更新时间的时区；可选值: Asia/Shanghai 或其它时区编码                                                                                                                         | Asia/Shanghai     |
@@ -181,8 +178,8 @@ https://raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
 | ipv4_num               | 结果中偏好的 IPv4 接口数量                                                                                                                                                            |                   |
 | ipv6_num               | 结果中偏好的 IPv6 接口数量                                                                                                                                                            |                   |
 | ipv6_support           | 强制认为当前网络支持 IPv6，跳过检测                                                                                                                                                        | False             |
-| ipv_type               | 生成结果中接口的协议类型；可选值: ipv4、ipv6、全部、all                                                                                                                                          | 全部                |
-| ipv_type_prefer        | 接口协议类型偏好，优先将该类型的接口排在结果前面；可选值: ipv4、ipv6、自动、auto                                                                                                                             | auto              |
+| ipv_type               | 生成结果中接口的协议类型；可选值: ipv4、ipv6、all                                                                                                                                             | all               |
+| ipv_type_prefer        | 接口协议类型偏好，优先将该类型的接口排在结果前面；可选值: ipv4、ipv6、auto                                                                                                                                | auto              |
 | location               | 接口归属地，用于控制结果只包含填写的归属地类型，支持关键字过滤，英文逗号分隔，不填写表示不指定归属地，建议使用靠近使用者的归属地，能提升播放体验                                                                                                    |                   |
 | isp                    | 接口运营商，用于控制结果中只包含填写的运营商类型，支持关键字过滤，英文逗号分隔，不填写表示不指定运营商                                                                                                                         |                   |
 | origin_type_prefer     | 结果偏好的接口来源，结果优先按该顺序进行排序，逗号分隔，例如: local,hotel,multicast,subscribe,online_search；local: 本地源，hotel: 酒店源，multicast: 组播源，subscribe: 订阅源，online_search: 关键字搜索；不填写则表示不指定来源，按照接口速率排序 |                   |
@@ -191,10 +188,10 @@ https://raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
 | subscribe_num          | 结果中偏好的订阅源接口数量                                                                                                                                                               | 10                |
 | hotel_num              | 结果中偏好的酒店源接口数量                                                                                                                                                               | 10                |
 | hotel_page_num         | 酒店地区获取分页数量                                                                                                                                                                  | 1                 |
-| hotel_region_list      | 酒店源地区列表，“全部”表示所有地区                                                                                                                                                          | 全部                |
+| hotel_region_list      | 酒店源地区列表，“all”表示所有地区                                                                                                                                                         | all               |
 | multicast_num          | 结果中偏好的组播源接口数量                                                                                                                                                               | 10                |
 | multicast_page_num     | 组播地区获取分页数量                                                                                                                                                                  | 1                 |
-| multicast_region_list  | 组播源地区列表，“全部”表示所有地区                                                                                                                                                          | 全部                |
+| multicast_region_list  | 组播源地区列表，“all”表示所有地区                                                                                                                                                         | all               |
 | online_search_num      | 结果中偏好的关键字搜索接口数量                                                                                                                                                             | 0                 |
 | online_search_page_num | 关键字搜索频道获取分页数量                                                                                                                                                               | 1                 |
 | logo_url               | 频道台标库地址                                                                                                                                                                     |                   |
@@ -202,7 +199,7 @@ https://raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
 | open_rtmp              | 开启 RTMP 推流功能，需要安装 FFmpeg，利用本地带宽提升接口播放体验                                                                                                                                     | True              |
 | nginx_http_port        | Nginx HTTP 服务端口，用于 RTMP 推流转发的 HTTP 服务端口                                                                                                                                     | 8080              |
 | nginx_rtmp_port        | Nginx RTMP 服务端口，用于 RTMP 推流转发的 RTMP 服务端口                                                                                                                                     | 1935              |
-| rtmp_idle_timeout      | RTMP 频道接口空闲停止推流超时时长，单位秒(s)，用于控制接口无人观看时超过该时长后停止推流，调整此值能优化服务器资源占用                                                                                                             | 60                |
+| rtmp_idle_timeout      | RTMP 频道接口空闲停止推流超时时长，单位秒(s)，用于控制接口无人观看时超过该时长后停止推流，调整此值能优化服务器资源占用                                                                                                             | 300               |
 | rtmp_max_streams       | RTMP 推流最大并发数量，用于控制同时推流的频道数量，数值越大服务器压力越大，调整此值能优化服务器资源占用                                                                                                                      | 10                |
 
 ## 快速上手
@@ -276,55 +273,59 @@ pipenv run ui
 
 ### Docker
 
-#### Compose一键部署
+#### 1. Compose部署（推荐）
 
-[docker-compose.yml](./docker-compose.yml)
+下载[docker-compose.yml](./docker-compose.yml)或复制内容创建（内部参数可按需更改），在文件所在路径下运行以下命令即可部署：
 
 ```bash
 docker compose up -d
 ```
 
-#### 手动命令部署
+#### 2. 手动命令部署
 
-##### 1. 拉取镜像
+##### （1）拉取镜像
 
 ```bash
 docker pull guovern/iptv-api:latest
 ```
 
-🚀 代理加速（推荐国内用户使用，可能会有缓存）：
+🚀 代理加速（若拉取失败可以使用该命令，但有可能拉取的是旧版本）：
 
 ```bash
 docker pull docker.1ms.run/guovern/iptv-api:latest
 ```
 
-##### 2. 运行容器
+##### （2）运行容器
 
 ```bash
-docker run -d -p 5180:5180 guovern/iptv-api
+docker run -d -p 80:8080 guovern/iptv-api
 ```
 
 **环境变量：**
 
-| 变量              | 描述             | 默认值  |
-|:----------------|:---------------|:-----|
-| APP_PORT        | 服务端口           | 5180 |
-| NGINX_HTTP_PORT | Nginx HTTP服务端口 | 8080 |
-| NGINX_RTMP_PORT | Nginx RTMP服务端口 | 1935 |
+| 变量              | 描述                                | 默认值       |
+|:----------------|:----------------------------------|:----------|
+| PUBLIC_DOMAIN   | 公网域名或IP地址，决定外部访问或推流结果的Host地址      | 127.0.0.1 |
+| PUBLIC_PORT     | 公网端口，设置为映射后的端口，决定外部访问地址和推流结果地址的端口 | 80        |
+| NGINX_HTTP_PORT | HTTP服务端口，外部访问需要映射该端口              | 8080      |
+
+如果需要修改环境变量，在上述运行命令后添加以下参数：
+
+```bash
+# 修改公网域名
+-e PUBLIC_DOMAIN=your.domain.com
+# 修改公网端口
+-e PUBLIC_PORT=80
+```
 
 除了以上环境变量，还支持通过环境变量覆盖配置文件中的[配置项](#配置)
 
 **挂载：** 实现宿主机文件与容器文件同步，修改模板、配置、获取更新结果文件可直接在宿主机文件夹下操作，在上述运行命令后添加以下参数
 
-挂载配置目录：
-
 ```bash
+# 挂载配置目录
 -v /iptv-api/config:/iptv-api/config
-```
-
-挂载结果目录：
-
-```bash
+# 挂载结果目录
 -v /iptv-api/output:/iptv-api/output
 ```
 
@@ -350,20 +351,22 @@ docker run -d -p 5180:5180 guovern/iptv-api
 **RTMP 推流：**
 
 > [!NOTE]
-> 1. 开启推流后，默认会将获取到的接口（如订阅源）进行推流
-> 2. 如果需要对本地视频源进行推流，可在`config`目录下新建`hls`文件夹
-> 3. 将以`频道名称命名`的视频文件放入其中，程序会自动推流到对应的频道中
-> 4. 可访问 http://127.0.0.1:8080/stat 查看实时推流状态统计数据
+> 1. 如果是服务器部署，请务必配置`PUBLIC_DOMAIN`环境变量为服务器域名或IP地址，`PUBLIC_PORT`环境变量为公网端口，否则推流地址无法访问
+> 2. 开启推流后，默认会将获取到的接口（如订阅源）进行推流
+> 3. 如果需要对本地视频源进行推流，可在`config`目录下新建`hls`文件夹，将以`频道名称命名`的视频文件放入其中，程序会自动推流到对应的频道中
 
 | 推流接口          | 描述           |
 |:--------------|:-------------|
 | /hls          | 推流接口         |
 | /hls/txt      | 推流txt接口      |
 | /hls/m3u      | 推流m3u接口      |
+| /hls/ipv4     | 推流ipv4 默认接口  |
+| /hls/ipv6     | 推流ipv6 默认接口  |
 | /hls/ipv4/txt | 推流ipv4 txt接口 |
 | /hls/ipv4/m3u | 推流ipv4 m3u接口 |
 | /hls/ipv6/txt | 推流ipv6 txt接口 |
 | /hls/ipv6/m3u | 推流ipv6 m3u接口 |
+| /stat         | 推流状态统计接口     |
 
 ## 更新日志
 
@@ -410,6 +413,7 @@ docker run -d -p 5180:5180 guovern/iptv-api
 | 戒烟            | 公众号 | 大佬辛苦了         | 25   |
 | 搂着猫的老鼠        | 公众号 | 受教了，非常感谢您的付出  | 25   |
 | 米多            | 赞赏码 | 非常强大，加油       | 20   |
+| **中           | 支付宝 | 支持开发          | 20   |
 | pakysr        | 赞赏码 |               | 20   |
 | 随波            | 公众号 |               | 20   |
 | 公子            | 公众号 |               | 20   |
@@ -439,6 +443,7 @@ docker run -d -p 5180:5180 guovern/iptv-api
 | 阿雨辰           | 赞赏码 | 虽然没看懂，但觉得挺牛逼的 | 6.66 |
 | 骑着蜗牛追火箭       | 公众号 | 大佬威武！！！！！     | 5    |
 | 大胖雷蒙德         | 公众号 | 加油。           | 5    |
+| 和军            | 公众号 |               | 5    |
 | ð苹果邱邱         | 公众号 |               | 5    |
 | 韶梦年华          | 公众号 |               | 5    |
 | BlueSymphony  | 公众号 |               | 5    |

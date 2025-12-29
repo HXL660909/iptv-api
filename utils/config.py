@@ -75,12 +75,12 @@ class ConfigManager:
 
     @property
     def ipv_type(self):
-        return self.config.get("Settings", "ipv_type", fallback="全部").lower()
+        return self.config.get("Settings", "ipv_type", fallback="all").lower()
 
     @property
     def open_ipv6(self):
         return (
-                "ipv6" in self.ipv_type or "all" in self.ipv_type or "全部" in self.ipv_type
+                "ipv6" in self.ipv_type or "all" in self.ipv_type
         )
 
     @property
@@ -268,7 +268,7 @@ class ConfigManager:
         return [
             region.strip()
             for region in self.config.get(
-                "Settings", "multicast_region_list", fallback="全部"
+                "Settings", "multicast_region_list", fallback="all"
             ).split(",")
             if region.strip()
         ]
@@ -278,7 +278,7 @@ class ConfigManager:
         return [
             region.strip()
             for region in self.config.get(
-                "Settings", "hotel_region_list", fallback="全部"
+                "Settings", "hotel_region_list", fallback="all"
             ).split(",")
             if region.strip()
         ]
@@ -404,7 +404,7 @@ class ConfigManager:
     @property
     def update_times(self):
         return self.config.get("Settings", "update_times", fallback="")
-    
+
     @property
     def update_startup(self):
         return self.config.getboolean("Settings", "update_startup", fallback=True)
@@ -419,7 +419,7 @@ class ConfigManager:
 
     @property
     def rtmp_idle_timeout(self):
-        return self.config.getint("Settings", "rtmp_idle_timeout", fallback=60)
+        return self.config.getint("Settings", "rtmp_idle_timeout", fallback=300)
 
     @property
     def rtmp_max_streams(self):
@@ -446,6 +446,20 @@ class ConfigManager:
         except Exception:
             pass
         return cfg
+
+    @property
+    def public_port(self):
+        env = os.getenv("PUBLIC_PORT")
+        if env:
+            try:
+                return int(env)
+            except ValueError:
+                return env
+        return self.nginx_http_port if self.open_rtmp else self.app_port
+
+    @property
+    def language(self):
+        return self.config.get("Settings", "language", fallback="zh_CN")
 
     def load(self):
         """

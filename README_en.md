@@ -35,11 +35,6 @@ pipeline 🚀. Supports extensive customization; paste the resulting URL into yo
 
 </div>
 
-🎉💻 [IPTV-Web](https://github.com/Guovin/iptv-web): IPTV live stream management platform, supports online playback and
-other features, under development...
-
-💖 [Channel Alias Collection Plan](https://github.com/Guovin/iptv-api/discussions/1082)
-
 - [✅ Core Features](#core-features)
 - [🔗 Latest results](#latest-results)
 - [⚙️ Config parameter](#Config)
@@ -82,20 +77,20 @@ other features, under development...
 
 ## Core Features
 
-| Feature                               | Status | Description                                                                                                                         |
-|:--------------------------------------|:------:|:------------------------------------------------------------------------------------------------------------------------------------|
-| **Custom Templates**                  |   ✅    | Generate personalized channels as you wish                                                                                          |
-| **Channel Alias**                     |   ✅    | Improves channel result coverage and accuracy, supports regular expressions                                                         |
-| **Multiple Source Types**             |   ✅    | Supports local sources, multicast, hotel sources, subscriptions, and keyword search                                                 |
-| **RTMP streaming**                    |   ✅    | Supports HLS mode (segmented / adaptive bitrate), improves compatibility and reduces buffering, enhancing playback on weak networks |
-| **Playback Interfaces**               |   ✅    | Supports acquisition and generation of playback interfaces                                                                          |
-| **EPG (Electronic Program Guide)**    |   ✅    | Displays channel preview content                                                                                                    |
-| **Channel Logo**                      |   ✅    | Supports custom channel logo library sources                                                                                        |
-| **Interface Speed Test & Validation** |   ✅    | Measures latency, speed, resolution, and filters invalid interfaces                                                                 |
-| **Advanced Preferences**              |   ✅    | IPv4/IPv6, interface sorting priority, quantity configuration, blacklist/whitelist, region & ISP filtering                          |
-| **Scheduled Tasks**                   |   ✅    | Automatically updates at 6:00 and 18:00 Beijing time daily by default; customizable schedule                                        |
-| **Multiple Run Modes**                |   ✅    | Supports workflow, CLI, GUI software, Docker (amd64/arm64/arm v7)                                                                   |
-| **More Features**                     |   ✨    | See [Configuration Parameters](#Config) section for details                                                                         |
+| Feature                               | Status | Description                                                                                                                                        |
+|:--------------------------------------|:------:|:---------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Custom Templates**                  |   ✅    | Generate personalized channels as you wish                                                                                                         |
+| **Channel Alias**                     |   ✅    | Improves channel result coverage and accuracy, supports regular expressions                                                                        |
+| **Multiple Source Types**             |   ✅    | Supports local sources, multicast, hotel sources, subscriptions, and keyword search                                                                |
+| **RTMP streaming**                    |   ✅    | Supports HLS mode to improve compatibility and reduce buffering, enhancing playback on poor networks, and supports playback in browsers or players |
+| **Playback Interfaces**               |   ✅    | Supports acquisition and generation of playback interfaces                                                                                         |
+| **EPG (Electronic Program Guide)**    |   ✅    | Displays channel preview content                                                                                                                   |
+| **Channel Logo**                      |   ✅    | Supports custom channel logo library sources                                                                                                       |
+| **Interface Speed Test & Validation** |   ✅    | Measures latency, speed, resolution, and filters invalid interfaces                                                                                |
+| **Advanced Preferences**              |   ✅    | IPv4/IPv6, interface sorting priority, quantity configuration, blacklist/whitelist, region & ISP filtering                                         |
+| **Scheduled Tasks**                   |   ✅    | Automatically updates at 6:00 and 18:00 Beijing time daily by default; customizable schedule                                                       |
+| **Multiple Run Modes**                |   ✅    | Supports workflow, CLI, GUI software, Docker (amd64/arm64/arm v7)                                                                                  |
+| **More Features**                     |   ✨    | See [Configuration Parameters](#Config) section for details                                                                                        |
 
 ## Latest results
 
@@ -145,6 +140,7 @@ https://raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
 | open_m3u_result        | Enable converting and generating m3u file type result links, supporting the display of channel icons.                                                                                                                                                                                                                                                                | True              |
 | urls_limit             | Number of interfaces per channel.                                                                                                                                                                                                                                                                                                                                    | 10                |
 | update_time_position   | Update time display position, takes effect only when `open_update_time` is enabled. Optional values: `top`, `bottom`. `top`: display at the top of the result, `bottom`: display at the bottom.                                                                                                                                                                      | top               |
+| language               | Application language setting; Optional values: zh_CN, en                                                                                                                                                                                                                                                                                                             | zh_CN             |
 | update_mode            | Scheduled execution update mode, does not apply to workflow; Optional values: interval, time; interval: execute by interval time, time: execute at specified time point                                                                                                                                                                                              | interval          |
 | update_interval        | Scheduled execution update interval, only takes effect when update_mode = interval, unit hours, set to 0 or empty to run only once                                                                                                                                                                                                                                   | 12                |
 | update_times           | Scheduled execution update time point, only takes effect when update_mode = time, format HH:MM, supports multiple time points separated by commas                                                                                                                                                                                                                    |                   |
@@ -186,8 +182,8 @@ https://raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
 | ipv4_num               | Preferred number of IPv4 interfaces in the result.                                                                                                                                                                                                                                                                                                                   |                   |
 | ipv6_num               | Preferred number of IPv6 interfaces in the result.                                                                                                                                                                                                                                                                                                                   |                   |
 | ipv6_support           | Force treating the current network as IPv6-supported and skip detection.                                                                                                                                                                                                                                                                                             | False             |
-| ipv_type               | Protocol type of interfaces in the generated result. Optional values: `ipv4`, `ipv6`, `全部`, `all`.                                                                                                                                                                                                                                                                   | 全部                |
-| ipv_type_prefer        | Interface protocol type preference. Preferred type will be ordered earlier in the result. Optional values: `ipv4`, `ipv6`, `自动`, `auto`.                                                                                                                                                                                                                             | auto              |
+| ipv_type               | Protocol type of interfaces in the generated result. Optional values: `ipv4`, `ipv6`, `all`.                                                                                                                                                                                                                                                                         | all               |
+| ipv_type_prefer        | Interface protocol type preference. Preferred type will be ordered earlier in the result. Optional values: `ipv4`, `ipv6`, `auto`.                                                                                                                                                                                                                                   | auto              |
 | location               | Interface location filter. Result will only contain interfaces whose location matches the given keywords (comma-separated). Leave empty to not restrict by location. Recommended to set near the end user to improve playback experience.                                                                                                                            |                   |
 | isp                    | Interface operator filter. Result will only contain interfaces whose operator matches the given keywords (comma-separated). Leave empty to not restrict by operator.                                                                                                                                                                                                 |                   |
 | origin_type_prefer     | Preferred interface source ordering. The result is sorted in this order (comma-separated). Example: `local,hotel,multicast,subscribe,online_search`. `local`: local source; `hotel`: hotel source; `multicast`: multicast source; `subscribe`: subscription source; `online_search`: keyword search. Leave empty to not specify and sort by interface speed instead. |                   |
@@ -196,10 +192,10 @@ https://raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
 | subscribe_num          | Preferred number of subscription source interfaces in the result.                                                                                                                                                                                                                                                                                                    | 10                |
 | hotel_num              | Preferred number of hotel source interfaces in the result.                                                                                                                                                                                                                                                                                                           | 10                |
 | hotel_page_num         | Number of pages to retrieve for hotel regions.                                                                                                                                                                                                                                                                                                                       | 1                 |
-| hotel_region_list      | Hotel source region list; `"全部"` / `all` means all regions.                                                                                                                                                                                                                                                                                                          | 全部                |
+| hotel_region_list      | Hotel source region list; `all` means all regions.                                                                                                                                                                                                                                                                                                                   | all               |
 | multicast_num          | Preferred number of multicast source interfaces in the result.                                                                                                                                                                                                                                                                                                       | 10                |
 | multicast_page_num     | Number of pages to retrieve for multicast regions.                                                                                                                                                                                                                                                                                                                   | 1                 |
-| multicast_region_list  | Multicast source region list; `"全部"` / `all` means all regions.                                                                                                                                                                                                                                                                                                      | 全部                |
+| multicast_region_list  | Multicast source region list; `all` means all regions.                                                                                                                                                                                                                                                                                                               | all               |
 | online_search_num      | Preferred number of keyword search interfaces in the result.                                                                                                                                                                                                                                                                                                         | 0                 |
 | online_search_page_num | Number of pages to retrieve for keyword search channels.                                                                                                                                                                                                                                                                                                             | 1                 |
 | logo_url               | Channel logo library URL.                                                                                                                                                                                                                                                                                                                                            |                   |
@@ -207,7 +203,7 @@ https://raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
 | open_rtmp              | Enable RTMP push function. Requires FFmpeg installed, uses local bandwidth to improve playback experience.                                                                                                                                                                                                                                                           | True              |
 | nginx_http_port        | Nginx HTTP service port, used for the HTTP service of RTMP push forwarding.                                                                                                                                                                                                                                                                                          | 8080              |
 | nginx_rtmp_port        | Nginx RTMP service port, used for the RTMP service of RTMP push forwarding.                                                                                                                                                                                                                                                                                          | 1935              |
-| rtmp_idle_timeout      | RTMP channel idle stop-streaming timeout in seconds. When no one watches for longer than this duration, streaming is stopped, helping reduce server resource usage.                                                                                                                                                                                                  | 60                |
+| rtmp_idle_timeout      | RTMP channel idle stop-streaming timeout in seconds. When no one watches for longer than this duration, streaming is stopped, helping reduce server resource usage.                                                                                                                                                                                                  | 300               |
 | rtmp_max_streams       | Maximum number of concurrent RTMP push streams. Controls how many channels can be pushed at the same time. Larger values increase server load; tune to optimize resource usage.                                                                                                                                                                                      | 10                |
 
 ## Quick Start
@@ -283,41 +279,51 @@ pipenv run ui
 
 ### Docker
 
-#### One‑click deployment with Compose
+#### 1. Deployment with Compose (recommended)
 
-[docker-compose.yml](./docker-compose.yml)
+Download the [docker-compose.yml](./docker-compose.yml) or create one by copying the content (internal parameters can
+be changed as needed), then run the following command in the path where the file is located:
 
 ```bash
 docker compose up -d
 ```
 
-#### Manual deployment with commands
+#### 2. Manual deployment with commands
 
-##### 1. Pull the image
+##### (1) Pull the image
 
 ```bash
 docker pull guovern/iptv-api:latest
 ```
 
-🚀 Proxy acceleration (recommended for users in Mainland China, may be cached):
+🚀 Proxy acceleration (use this command if pulling fails, but it may download an older version):
 
 ```bash
 docker pull docker.1ms.run/guovern/iptv-api:latest
 ```
 
-##### 2. Run the container
+##### (2) Run the container
 
 ```bash
-docker run -d -p 5180:5180 guovern/iptv-api
+docker run -d -p 80:8080 guovern/iptv-api
 ```
 
-**Environment Variables:**
+**Environment variables:**
 
-| Variable        | Description             | Default Value |
-|:----------------|:------------------------|:--------------|
-| APP_PORT        | Service port            | 5180          |
-| NGINX_HTTP_PORT | Nginx HTTP service port | 8080          |
-| NGINX_RTMP_PORT | Nginx RTMP service port | 1935          |
+| Variable        | Description                                                                                                      | Default   |
+|:----------------|:-----------------------------------------------------------------------------------------------------------------|:----------|
+| PUBLIC_DOMAIN   | Public domain or IP address, determines external access and the Host used in push stream results                 | 127.0.0.1 |
+| PUBLIC_PORT     | Public port, set to the mapped port, determines external access address and the port used in push stream results | 80        |
+| NGINX_HTTP_PORT | Nginx HTTP service port, needs to be mapped for external access                                                  | 8080      |
+
+If you need to modify environment variables, add the following parameters after the above run command:
+
+```bash
+# Modify public domain
+-e PUBLIC_DOMAIN=your.domain.com
+# Modify public port
+-e PUBLIC_PORT=80
+```
 
 In addition to the environment variables listed above, you can also override the [configuration items](#Config) in the
 configuration file via environment variables.
@@ -325,15 +331,10 @@ configuration file via environment variables.
 **Mounts:** used to synchronize files between the host and the container. You can edit templates, configs, and access
 generated result files directly on the host. Append the following options to the run command above:
 
-Mount config directory:
-
 ```bash
+# Mount config directory
 -v /iptv-api/config:/iptv-api/config
-```
-
-Mount output directory:
-
-```bash
+# Mount output directory
 -v /iptv-api/output:/iptv-api/output
 ```
 
@@ -359,21 +360,25 @@ Mount output directory:
 **RTMP Streaming:**
 
 > [!NOTE]
-> 1. After enabling streaming, obtained sources (for example subscription sources) will be streamed by default.
-> 2. To stream local video sources, create an `hls` folder inside the `config` directory.
-> 3. Place video files named with the `channel name` into that folder; the program will automatically stream them to the
-     corresponding channels.
-> 4. Visit `http://127.0.0.1:8080/stat` to view real-time streaming status and statistics.
+> 1. If deploying on a server, be sure to set the `PUBLIC_DOMAIN` environment variable to the server's domain name or IP
+     address and the `PUBLIC_PORT` environment variable to the public port; otherwise the streaming addresses will not
+     be accessible.
+> 2. When streaming is enabled, obtained interfaces (e.g., subscription sources) will be streamed by default.
+> 3. To stream local video sources, create an `hls` folder under the `config` directory and place video files named
+     after the channel; the program will automatically stream them to the corresponding channels.
 
-| Streaming Endpoint | Description                     |
-|:-------------------|:--------------------------------|
-| /hls               | hls streaming endpoint          |
-| /hls/txt           | hls txt streaming endpoint      |
-| /hls/m3u           | hls m3u streaming endpoint      |
-| /hls/ipv4/txt      | hls ipv4 txt streaming endpoint |
-| /hls/ipv4/m3u      | hls ipv4 m3u streaming endpoint |
-| /hls/ipv6/txt      | hls ipv6 txt streaming endpoint |
-| /hls/ipv6/m3u      | hls ipv6 m3u streaming endpoint |
+| Streaming Endpoint | Description                          |
+|:-------------------|:-------------------------------------|
+| /hls               | hls streaming endpoint               |
+| /hls/txt           | hls txt streaming endpoint           |
+| /hls/m3u           | hls m3u streaming endpoint           |
+| /hls/ipv4          | hls ipv4 default streaming endpoint  |
+| /hls/ipv6          | hls ipv6 default streaming endpoint  |
+| /hls/ipv4/txt      | hls ipv4 txt streaming endpoint      |
+| /hls/ipv4/m3u      | hls ipv4 m3u streaming endpoint      |
+| /hls/ipv6/txt      | hls ipv6 txt streaming endpoint      |
+| /hls/ipv6/m3u      | hls ipv6 m3u streaming endpoint      |
+| /stat              | Streaming status statistics endpoint |
 
 ## Changelog
 

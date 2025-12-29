@@ -1,6 +1,5 @@
 import os
 import sys
-import threading
 import time
 
 sys.path.append(os.path.dirname(sys.path[0]))
@@ -10,8 +9,9 @@ from utils.config import config
 import utils.constants as constants
 import atexit
 from service.rtmp import start_rtmp_service, stop_rtmp_service, app_rtmp_url, hls_temp_path, STREAMS_LOCK, \
-    hls_running_streams, start_hls_to_rtmp, hls_last_access, hls_idle_monitor, HLS_WAIT_TIMEOUT, HLS_WAIT_INTERVAL
+    hls_running_streams, start_hls_to_rtmp, hls_last_access, HLS_WAIT_TIMEOUT, HLS_WAIT_INTERVAL
 import logging
+from utils.i18n import t
 
 app = Flask(__name__)
 log = logging.getLogger('werkzeug')
@@ -91,6 +91,14 @@ def show_ipv4_result():
     )
 
 
+@app.route("/hls/ipv4")
+def show_hls_ipv4():
+    return get_result_file_content(
+        path=constants.hls_ipv4_result_path,
+        file_type="m3u" if config.open_m3u_result else "txt"
+    )
+
+
 @app.route("/ipv6/m3u")
 def show_ipv6_m3u():
     return get_result_file_content(path=constants.ipv6_result_path, file_type="m3u")
@@ -100,6 +108,14 @@ def show_ipv6_m3u():
 def show_ipv6_result():
     return get_result_file_content(
         path=constants.hls_ipv6_result_path if config.open_rtmp else constants.ipv6_result_path,
+        file_type="m3u" if config.open_m3u_result else "txt"
+    )
+
+
+@app.route("/hls/ipv6")
+def show_hls_ipv6():
+    return get_result_file_content(
+        path=constants.hls_ipv6_result_path,
         file_type="m3u" if config.open_m3u_result else "txt"
     )
 
@@ -184,7 +200,7 @@ def show_nomatch_log():
 @app.route('/hls_proxy/<channel_id>', methods=['GET'])
 def hls_proxy(channel_id):
     if not channel_id:
-        return jsonify({'Error': 'Channel id is required'}), 400
+        return jsonify({t("name.error"): t("msg.error_channel_id_required")}), 400
 
     channel_file = f'{channel_id}.m3u8'
     m3u8_path = os.path.join(hls_temp_path, channel_file)
@@ -201,7 +217,7 @@ def hls_proxy(channel_id):
         host = f"{app_rtmp_url}/hls"
         start_hls_to_rtmp(host, channel_id)
 
-    hls_min_segments = 5
+    hls_min_segments = 3
     waited = 0.0
     while waited < HLS_WAIT_TIMEOUT:
         if os.path.exists(m3u8_path):
@@ -213,19 +229,19 @@ def hls_proxy(channel_id):
                 if segment_count >= hls_min_segments and not ends_with_discont:
                     break
             except Exception as e:
-                print(f"❌ Read m3u8 while waiting failed for {channel_id}: {e}")
+                print(t("msg.error_channel_id_m3u8_read_info").format(channel_id=channel_id, info=e))
         time.sleep(HLS_WAIT_INTERVAL)
         waited += HLS_WAIT_INTERVAL
 
     if not os.path.exists(m3u8_path):
-        return jsonify({'Error': 'HLS m3u8 not ready'}), 504
+        return jsonify({t("name.error"): t("msg.m3u8_hls_not_ready")}), 503
 
     try:
         with open(m3u8_path, 'rb') as f:
             data = f.read()
     except Exception as e:
-        print(f"❌ Read m3u8 failed for {channel_id}: {e}")
-        return jsonify({'Error': 'Failed to read m3u8'}), 500
+        print(t("msg.error_channel_id_m3u8_read_info").format(channel_id=channel_id, info=e))
+        return jsonify({t("name.error"): t("msg.error_m3u8_read")}), 500
 
     now = time.time()
     with STREAMS_LOCK:
@@ -234,21 +250,12 @@ def hls_proxy(channel_id):
     return Response(data, mimetype='application/vnd.apple.mpegurl')
 
 
-@app.post('/on_publish')
-def on_publish():
-    form = request.form
-    stream_id = form.get('name', '')
-
-    print(f'RTMP publish: stream_id={stream_id}')
-    return ''
-
-
 @app.post('/on_done')
 def on_done():
     form = request.form
-    stream_id = form.get('name', '')
+    channel_id = form.get('name', '')
 
-    print(f'RTMP done: stream_id={stream_id}')
+    print(t("msg.rtmp_on_done").format(channel_id=channel_id))
     return ''
 
 
@@ -258,21 +265,17 @@ def run_service():
             if config.open_rtmp and sys.platform == "win32":
                 start_rtmp_service()
             public_url = get_public_url()
-            print(f"📄 Speed test log: {public_url}/log")
-            if config.open_rtmp:
-                print(f"🚀 RTMP api: {public_url}/hls")
-            print(f"🚀 IPv4 api: {public_url}/ipv4")
-            print(f"🚀 IPv6 api: {public_url}/ipv6")
-            print(f"✅ You can use this url to watch IPTV 📺: {public_url}")
-            app.run(host="0.0.0.0", port=config.app_port)
+            base_api = f"{public_url}/hls" if config.open_rtmp else public_url
+            print(t("msg.statistic_log_path").format(path=f"{public_url}/log/statistic"))
+            print(t("msg.ipv4_api").format(api=f"{base_api}/ipv4"))
+            print(t("msg.ipv6_api").format(api=f"{base_api}/ipv6"))
+            print(t("msg.full_api").format(api=base_api))
+            app.run(host="127.0.0.1", port=config.app_port)
     except Exception as e:
-        print(f"❌ Service start failed: {e}")
+        print(t("msg.error_service_start_failed").format(info=e))
 
 
 if __name__ == "__main__":
-    if config.open_rtmp:
-        if sys.platform == "win32":
-            atexit.register(stop_rtmp_service)
-        idle_thread = threading.Thread(target=hls_idle_monitor, daemon=True)
-        idle_thread.start()
+    if config.open_rtmp and sys.platform == "win32":
+        atexit.register(stop_rtmp_service)
     run_service()
